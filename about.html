@@ -1,0 +1,18 @@
+---
+layout: default
+title: Meet Your Dentists
+---
+
+<h1>Meet Your Dentists</h1>
+
+<ul>
+    {% assign sorted_staff = site.staff | sort:"order" %}
+    {% for staff in sorted_staff %}
+    <li>
+        <h2>{{ staff.name }}</h2>
+        <h3>{{ staff.position }}</h3>
+        <p>{{ staff.content | markdownify }}</p>
+        <img src="/assets/images/{{ staff.image }}" />
+    </li>
+    {% endfor %}
+</ul>
