@@ -57,3 +57,20 @@ footer {
 .footer-google {
     width: 120px;
 }
+
+.about-wrapper {
+    margin-bottom: 40px;
+}
+
+.about-title {
+    margin: 0px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 47px;
+}
+
+.about-text {
+    margin-left: 10%;
+    margin-right: 10%;
+}
