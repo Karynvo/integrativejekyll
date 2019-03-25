@@ -1,4 +1,4 @@
-a.nav-link {
+a {
     color: black;
 }
 
@@ -7,5 +7,53 @@ a:hover {
 }
 
 .logo {
-    width: 800px;
+    width: 600px;
+}
+
+.btn {
+    color: white;
+    background-color: black;
+}
+
+.upper-header {
+    margin: 10px;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding-top: 45px;
+}
+
+.footer-menu-title {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0px;
+}
+
+.footer-menu-link {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-button {
+    margin-top: 18px;
+}
+
+.footer-social a{
+    margin-right: 15px;
+}
+
+.footer-icon {
+    font-size: 1.5rem;
+}
+
+.footer-google {
+    width: 120px;
 }
