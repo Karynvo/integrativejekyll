@@ -1,0 +1,22 @@
+<div class="meet-wrapper">
+  <h2 class="meet-title">Meet Your Dentists</h2>
+  <div class="row container meet-container">
+      {% assign sorted_doctors = site.doctors-about | sort:"order" %}
+    {% for doctor in sorted_doctors %}
+    <div class="col-sm-12 col-md-2">
+      <div class="meet-img">
+        <center>
+          <img class="meet-img--image" src="../assets/images/{{ doctor.image }}" alt="Dr. {{ doctor.name }}" />
+        </center>
+      </div>
+      <br>
+      <h3 align="center">Dr. {{ doctor.name }}</h3>
+      <div class="meet-text">
+        <p>
+          {{ doctor.content }}
+        </p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
