@@ -19,7 +19,7 @@ a:hover {
     margin: 10px;
 }
 
-footer {
+.footer-wrapper {
     background-color: #f8f8f8;
     padding-top: 45px;
 }
@@ -93,3 +93,31 @@ footer {
     max-width: 1000px;
 }
 
+.review-jumbotron {
+    background-color: black;
+}
+
+.review-title {
+    font: 14px 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #9b9b9b;
+    margin-bottom: 50px;
+}
+
+.review-quote {
+    font-size: 26px;
+    line-height: 34px;
+    font: 24px 'Nanum Myeongjo', serif;
+    color: rgba(255, 255, 255, .9);
+}
+
+.review-footer {
+    letter-spacing: 4px;
+    font-size: 14px;
+    line-height: 18px;
+    font: 12px/20px 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #9b9b9b;
+    margin-top: 20px;
+}

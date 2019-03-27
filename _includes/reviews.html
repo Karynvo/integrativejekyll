@@ -1,0 +1,54 @@
+<div id="carouselExampleControls" class="review-wrapper carousel slide" data-ride="carousel">
+  <div class="carousel-inner review-inner">
+
+    {% assign review = site.reviews | sort:"order" %}
+
+    <div class="carousel-item active">
+      <div class="jumbotron review-jumbotron">
+        <div class="container review mx-auto" style="width: 670px;">
+          <h1 class="review-title">What Patients Say About Us</h1>
+          <blockquote class="review-quote blockquote text-center">
+            {{site.reviews[0].content}}
+            {{site.reviews[0].highlight}}
+            <footer class="review-footer">{{site.reviews[0].name}} | <cite
+                title="{{site.reviews[0].source}}">{{site.reviews[0].source}}</cite></footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="jumbotron review-jumbotron">
+        <div class="container review mx-auto" style="width: 670px;">
+          <h1 class="review-title">What Patients Say About Us</h1>
+          <blockquote class="review-quote text-center">
+            {{site.reviews[1].content}}
+            {{site.reviews[1].highlight}}
+            <footer class="review-footer">{{site.reviews[1].name}} | <cite
+                title="{{site.reviews[1].source}}">{{site.reviews[1].source}}</cite></footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="jumbotron review-jumbotron">
+        <div class="container review mx-auto" style="width: 670px;">
+          <h1 class="review-title">What Patients Say About Us</h1>
+          <blockquote class="review-quote blockquote text-center">
+            {{site.reviews[2].content}}
+            {{site.reviews[2].highlight}}
+            <footer class="review-footer">{{site.reviews[2].name}} | <cite
+                title="{{site.reviews[2].source}}">{{site.reviews[2].source}}</cite></footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
