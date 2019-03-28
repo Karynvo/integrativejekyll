@@ -60,19 +60,44 @@ a:hover {
 
 .about-wrapper {
     margin-bottom: 40px;
+    background-color: #f4f4f4;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.about {
+    max-width: 650px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .about-title {
-    margin: 0px;
+    margin: 0 0 6px;
     text-align: center;
+    font: 42px "Playfair Display", serif;
+    font-weight: 1000;
+}
+
+.about-subtitle {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font: 14px 'Open Sans', sans-serif;
+    letter-spacing: 3px;
     font-weight: 300;
-    font-size: 38px;
-    line-height: 47px;
+    text-transform: uppercase;
+    padding: 0 0 20px;
 }
 
 .about-text {
-    margin-left: 10%;
-    margin-right: 10%;
+    font: 16px 'Roboto', sans-serif;
+    line-height: 1.5;
+    margin: 0 0 1em;
+    letter-spacing: 0.2px;
+    font-weight: 300;
 }
 
 .meet-title {
