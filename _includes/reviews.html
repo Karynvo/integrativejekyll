@@ -1,47 +1,45 @@
 <div id="carouselExampleControls" class="review-wrapper carousel slide" data-ride="carousel">
-  <div class="carousel-inner review-inner">
+  <div class="carousel-inner review-inner d-flex align-items-center">
 
     {% assign review = site.reviews | sort:"order" %}
 
     <div class="carousel-item active">
-      <div class="jumbotron review-jumbotron">
-        <div class="container review mx-auto" style="width: 670px;">
-          <h1 class="review-title">What Patients Say About Us</h1>
-          <blockquote class="review-quote blockquote text-center">
-            {{site.reviews[0].content}}
-            {{site.reviews[0].highlight}}
-            <footer class="review-footer">{{site.reviews[0].name}} | <cite
-                title="{{site.reviews[0].source}}">{{site.reviews[0].source}}</cite></footer>
-          </blockquote>
-        </div>
+      <div class="container review mx-auto">
+        <h1 class="review-title mb-5">What Patients Say About Us</h1>
+        <blockquote class="review-quote blockquote text-center mb-5">
+          {{review[0].content}}
+          {{review[0].highlight}}
+          <footer class="review-footer">{{review[0].name}} | <cite
+              title="{{review[0].source}}">{{review[0].source}}</cite></footer>
+        </blockquote>
+        {% include review-bottom.html %}
       </div>
     </div>
     <div class="carousel-item">
-      <div class="jumbotron review-jumbotron">
-        <div class="container review mx-auto" style="width: 670px;">
-          <h1 class="review-title">What Patients Say About Us</h1>
-          <blockquote class="review-quote text-center">
-            {{site.reviews[1].content}}
-            {{site.reviews[1].highlight}}
-            <footer class="review-footer">{{site.reviews[1].name}} | <cite
-                title="{{site.reviews[1].source}}">{{site.reviews[1].source}}</cite></footer>
-          </blockquote>
-        </div>
+      <div class="container review mx-auto">
+        <h1 class="review-title mb-5">What Patients Say About Us</h1>
+        <blockquote class="review-quote text-center mb-5">
+          {{review[1].content}}
+          {{review[1].highlight}}
+          <footer class="review-footer">{{review[1].name}} | <cite
+              title="{{review[1].source}}">{{review[1].source}}</cite></footer>
+        </blockquote>
+        {% include review-bottom.html %}
       </div>
     </div>
     <div class="carousel-item">
-      <div class="jumbotron review-jumbotron">
-        <div class="container review mx-auto" style="width: 670px;">
-          <h1 class="review-title">What Patients Say About Us</h1>
-          <blockquote class="review-quote blockquote text-center">
-            {{site.reviews[2].content}}
-            {{site.reviews[2].highlight}}
-            <footer class="review-footer">{{site.reviews[2].name}} | <cite
-                title="{{site.reviews[2].source}}">{{site.reviews[2].source}}</cite></footer>
-          </blockquote>
-        </div>
+      <div class="container review mx-auto">
+        <h1 class="review-title mb-5">What Patients Say About Us</h1>
+        <blockquote class="review-quote blockquote text-center mb-5">
+          {{review[2].content}}
+          {{review[2].highlight}}
+          <footer class="review-footer">{{review[2].name}} | <cite
+              title="{{review[2].source}}">{{review[2].source}}</cite></footer>
+        </blockquote>
+        {% include review-bottom.html %}
       </div>
     </div>
+
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

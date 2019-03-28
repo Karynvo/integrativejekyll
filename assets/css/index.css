@@ -93,8 +93,13 @@ a:hover {
     max-width: 1200px;
 }
 
-.review-jumbotron {
+.review-inner {
     background-color: black;
+    height: 560px;
+}
+
+.review {
+    width: 650px;
 }
 
 .review-title {
@@ -103,13 +108,22 @@ a:hover {
     text-align: center;
     color: #9b9b9b;
     margin-bottom: 50px;
+    letter-spacing: 3px;
+}
+
+.review-more {
+    font: 24px 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #9b9b9b;
+    letter-spacing: 3px;
 }
 
 .review-quote {
     font-size: 26px;
     line-height: 34px;
-    font: 24px 'Nanum Myeongjo', serif;
-    color: rgba(255, 255, 255, .9);
+    font: 20px 'Playfair Display', serif;
+    color: rgba(220, 220, 220, 0.9);
 }
 
 .review-footer {
