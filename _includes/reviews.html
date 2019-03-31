@@ -1,10 +1,10 @@
-<div id="carouselExampleControls" class="review-wrapper carousel slide" data-ride="carousel">
+<div id="carouselControls" class="review-wrapper carousel slide" data-ride="carousel">
   <div class="carousel-inner review-inner d-flex align-items-center">
 
     {% assign review = site.reviews | sort:"order" %}
 
     <div class="carousel-item active">
-      <div class="container review mx-auto">
+      <div class="container review mx-auto d-block w-100">
         <h1 class="review-title mb-5">What Patients Say About Us</h1>
         <blockquote class="review-quote blockquote text-center mb-5">
           {{review[0].content}}
@@ -16,7 +16,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <div class="container review mx-auto">
+      <div class="container review mx-auto d-block w-100">
         <h1 class="review-title mb-5">What Patients Say About Us</h1>
         <blockquote class="review-quote text-center mb-5">
           {{review[1].content}}
@@ -28,7 +28,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <div class="container review mx-auto">
+      <div class="container review mx-auto d-block w-100">
         <h1 class="review-title mb-5">What Patients Say About Us</h1>
         <blockquote class="review-quote blockquote text-center mb-5">
           {{review[2].content}}
@@ -41,11 +41,11 @@
     </div>
 
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
