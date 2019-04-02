@@ -58,14 +58,12 @@ a:hover {
     width: 120px;
 }
 
-.about-wrapper {
+.welcome-wrapper {
     margin-bottom: 40px;
     background-color: #f4f4f4;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
-.about {
+.welcome {
     max-width: 650px;
     margin: 0 auto;
     overflow: hidden;
@@ -74,14 +72,14 @@ a:hover {
     padding-bottom: 80px;
 }
 
-.about-title {
+.welcome-title {
     margin: 0 0 6px;
     text-align: center;
     font: 42px "Playfair Display", serif;
     font-weight: 1000;
 }
 
-.about-subtitle {
+.welcome-subtitle {
     display: block;
     text-align: center;
     margin: 0 auto;
@@ -92,7 +90,7 @@ a:hover {
     padding: 0 0 20px;
 }
 
-.about-text {
+.welcome-text {
     font: 16px 'Roboto', sans-serif;
     line-height: 1.5;
     margin: 0 0 1em;
@@ -101,16 +99,12 @@ a:hover {
 }
 
 .meet-title {
-    margin: 0px;
     text-align: center;
-    font-weight: 400;
-    font-size: 49px;
-    line-height: 47px;
 }
 
 .meet-img--image {
     border-radius: 50%;
-    width:160px;
+    height:160px;
 }
 
 .meet-container {
@@ -121,6 +115,12 @@ a:hover {
 .review-inner {
     background-color: black;
     height: 560px;
+}
+
+@media (max-width:560px) {
+    .review-inner {
+        height: 700px;
+    }
 }
 
 .review {
@@ -161,6 +161,14 @@ a:hover {
     margin-top: 20px;
 }
 
+.who-wrapper,
+.meet-wrapper,
+.map-wrapper,
+.review-wrapper {
+    margin-bottom: 40px;
+}
+
+.meet-title,
 .who-title {
     font-size: 54px;
     line-height: 62px;
@@ -214,6 +222,12 @@ a:hover {
     height:100%;
 }
 
+@media (max-width: 560px){
+    .who-video iframe {
+        height:100%;
+    }
+}
+
 .who-button {
     text-transform: uppercase;
     padding: 1rem 2rem;
@@ -222,9 +236,7 @@ a:hover {
     border-radius: .2rem;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 4px;
-}
-
-.who-content {
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 

@@ -3,7 +3,7 @@
   <div class="row container meet-container">
     {% assign sorted_doctors = site.doctors-about | sort:"order" %}
     {% for doctor in sorted_doctors %}
-    <div class="col-sm-12 col-md-2">
+    <div class="col">
       <div class="meet-img">
         <center>
           <img class="meet-img--image" src="../assets/images/{{ doctor.image }}" alt="Dr. {{ doctor.name }}" />
