@@ -35,6 +35,9 @@ collections:
   staff:
   doctors-about:
   reviews:
+  services:
+    output: true
+    permalink: /services/:name
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
