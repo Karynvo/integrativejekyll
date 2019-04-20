@@ -1,5 +1,6 @@
 ---
-name: Gabriel Malouf
+firstname: Gabriel
+lastname: Malouf
 order: 5
-image: malouf.png
+image: malouf.jpg
 ---

@@ -100,16 +100,30 @@ a:hover {
 
 .meet-title {
     text-align: center;
+    margin: 0 0 50px;
 }
 
 .meet-img--image {
     border-radius: 50%;
-    height:160px;
+    height:130px;
 }
 
 .meet-container {
     margin: auto;
     max-width: 1200px;
+}
+
+.meet-doctorname {
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font: 22px 'Roboto', sans-serif;
+    font-weight: 100;
+    letter-spacing: 3.5px;
+}
+
+.meet-button-container {
+    text-align: center;
 }
 
 .review-inner {
@@ -172,10 +186,13 @@ a:hover {
 .who-title {
     font-size: 54px;
     line-height: 62px;
-    margin: 0 0 5px;
     font: 46px 'Playfair Display', serif;
     letter-spacing: -1px;
     display: block;
+}
+
+.who-title {
+    margin: 0 0 5px;
 }
 
 .who-subtitle {
@@ -228,6 +245,7 @@ a:hover {
     }
 }
 
+.meet-button,
 .who-button {
     text-transform: uppercase;
     padding: 1rem 2rem;
