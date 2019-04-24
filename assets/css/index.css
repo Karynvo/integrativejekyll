@@ -10,13 +10,14 @@ a:hover {
     width: 600px;
 }
 
-.book-button {
-    color: white;
-    background-color: black;
-}
-
 .upper-header {
     margin: 10px;
+}
+
+.header,
+.dropdown-item {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .footer-wrapper {
@@ -142,7 +143,7 @@ a:hover {
 }
 
 .review-title {
-    font: 14px 'Open Sans', sans-serif;
+    font: 16px 'Open Sans', sans-serif;
     text-transform: uppercase;
     text-align: center;
     color: #9b9b9b;
@@ -151,7 +152,7 @@ a:hover {
 }
 
 .review-more {
-    font: 24px 'Open Sans', sans-serif;
+    font: 22px 'Open Sans', sans-serif;
     text-transform: uppercase;
     text-align: center;
     color: #9b9b9b;
@@ -245,6 +246,7 @@ a:hover {
     }
 }
 
+.book-button,
 .meet-button,
 .who-button {
     text-transform: uppercase;
@@ -254,8 +256,17 @@ a:hover {
     border-radius: .2rem;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 4px;
+}
+
+.meet-button,
+.who-button {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.book-button {
+    color: white;
+    background-color: black;
 }
 
 .map-header {
