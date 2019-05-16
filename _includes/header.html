@@ -39,7 +39,7 @@
     </div>
     <div class="row">
         <div class="mx-auto logo-container">
-            <img class="logo" src="../assets/images/logo.png" alt="Integrative Dentistry Logo" />
+            <a href="/"><img class="logo" src="../assets/images/logo.png" alt="Integrative Dentistry Logo" /></a>
         </div>
     </div>
     <div class="row sticky-top">
@@ -65,7 +65,7 @@
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     {% for serv in site.services %}
-                                    <a class="dropdown-item" href="#">{{ serv.title }}</a>
+                                    <a class="dropdown-item" href={{serv.url}}>{{ serv.title }}</a>
                                     {% endfor %}
                                 </div>
                             </li>

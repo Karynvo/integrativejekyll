@@ -237,6 +237,7 @@ a:hover {
     margin-bottom: 40px;
 }
 
+.service-title,
 .meet-title,
 .who-title {
     font-size: 54px;
@@ -263,6 +264,7 @@ a:hover {
     margin: 0 0 30px;
 }
 
+.service-body,
 .who-text {
     width: 100%;
     overflow: visible;
@@ -350,4 +352,8 @@ a:hover {
     letter-spacing: .22em;
     line-height: 1.5em;
     text-transform: uppercase;
+}
+
+.service-wrapper a {
+    color: turquoise;
 }
