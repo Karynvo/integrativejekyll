@@ -12,69 +12,75 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/index.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto:100,300,400|Roboto+Condensed|Playfair+Display|Open+Sans" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto:100,300,400|Roboto+Condensed|Playfair+Display|Open+Sans"
+        rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="../assets/js/index.js"></script>
 </head>
 
 <body>
     <div class="row">
-       <div class="col">
+        <div class="col">
             <div class="float-right upper-header">
                 <ul class="nav float-right">
                     <li class="nav-item">
                         <p class="nav-link">(206) 367-6453</p>
                     </li>
                     <li class="nav-item">
-                        <button class="btn book-button" data-toggle="modal" data-target="#contactModal">BOOK APPOINTMENT</button>
+                        <button class="btn book-button" data-toggle="modal" data-target="#contactModal">BOOK
+                            APPOINTMENT</button>
                     </li>
                 </ul>
             </div>
         </div>
-    </div> 
+    </div>
     <div class="row">
-        <div class="mx-auto">
+        <div class="mx-auto logo-container">
             <img class="logo" src="../assets/images/logo.png" alt="Integrative Dentistry Logo" />
         </div>
     </div>
     <div class="row sticky-top">
         <div style="width:100%;">
-            <nav id="navbar" class="navbar navbar-dark" style="background-color:white;">
-                <ul class="nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">MEET YOUR DENTISTS</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            OUR SERVICES
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Cosmetic Dentistry</a>
-                            <a class="dropdown-item" href="#">Invisalign</a>
-                            <a class="dropdown-item" href="#">Mercury-Free Fillings</a>
-                            <a class="dropdown-item" href="#">Safe Mercury Removal</a>
-                            <a class="dropdown-item" href="#">Children's Dentistry</a>
-                            <a class="dropdown-item" href="#">Metal-Free Dental Implants</a>
-                            <a class="dropdown-item" href="#">Myobrace</a>
-                            <a class="dropdown-item" href="#">TMJ Treatment</a>
-                            <a class="dropdown-item" href="#">Sleep Apnea Treatment</a>
-                            <a class="dropdown-item" href="#">Orthodontics</a>
-                            <a class="dropdown-item" href="#">Periodontics</a>
-                            <a class="dropdown-item" href="#">Crowns and Onlays</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">NATURAL DENTISTRY</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">OUR OFFICE AND TECHNOLOGY</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">WHY WE ARE DIFFERENT</a>
-                    </li>
-                </ul>
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color:white;">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <a href="#" class="navbar-close">x</a>
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Meet Your Dentists</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Our Services
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    {% for serv in site.services %}
+                                    <a class="dropdown-item" href="#">{{ serv.title }}</a>
+                                    {% endfor %}
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Natural Dentistry</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Our Office And Technology</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Why We Are Different</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </div>
     </div>

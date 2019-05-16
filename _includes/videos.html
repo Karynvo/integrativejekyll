@@ -1,0 +1,8 @@
+<div>
+  {% for vid in page.videos %}
+    <div class="service-video">
+      <iframe width="560" height="315" src="{{ vid.video-link }}" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  {% endfor %}
+</div>

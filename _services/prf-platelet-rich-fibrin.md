@@ -1,6 +1,10 @@
 ---
 layout: service
 title: Advanced Platelet Rich Fibrin
+videos:
+  - video-link: https://www.youtube.com/embed/88tUb0AzEQk
+  - video-link: https://www.youtube.com/embed/WL30LzLGXTg
+  - video-link: https://www.youtube.com/embed/rlc1-ieDniY
 
 ---
 
@@ -29,9 +33,8 @@ __Links__:
 
 <br/>
 __Videos__:
-https://www.youtube.com/watch?v=88tUb0AzEQk
-https://www.youtube.com/watch?v=WL30LzLGXTg
-https://www.youtube.com/watch?v=rlc1-ieDniY
+
+{% include videos.html %}
 
 <br/>
 __Downloads__:

@@ -1,7 +1,9 @@
 ---
 layout: service
 title: Ozone Therapy
-
+videos:
+  - video-link: https://www.youtube.com/embed/TieiT_xuohk
+  - video-link: https://www.youtube.com/embed/Ra-EyOipQ0E
 ---
 
 Ozone (O<sub>3</sub>), is a short-lived natural gaseous molecule made of three oxygen atoms, created in nature by the interaction of solar energy or lightning with atmospheric oxygen. The clean, crisp scent of natural ozone often foretells the season’s first rain. Mixtures of oxygen and ozone introduced to living systems create a therapeutic [transient oxidative burst](https://en.wikipedia.org/wiki/Respiratory_burst) that **naturally kills bacteria, viruses, fungi, yeasts, and parasites;** produces antioxidants; stimulates blood flow; enhances immunity; and accelerates healing.
@@ -40,9 +42,7 @@ __Links__:
 <br/>
 __Videos__:
 
-https://www.youtube.com/watch?v=TieiT_xuohk
-
-https://www.youtube.com/watch?v=Ra-EyOipQ0E
+{% include videos.html %}
 
 <br/>
 __Downloads__:
