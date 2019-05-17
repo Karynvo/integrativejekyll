@@ -1,0 +1,25 @@
+<div class="meet-wrapper">
+  <div class="container">
+    <h2 class="meet-title">Your Holistic Dentists</h2>
+    <div class="row meet-container">
+      {% assign sorted_doctors = site.doctors-about | sort:"order" %}
+      {% for doctor in sorted_doctors %}
+      <div class="col">
+        <div class="meet-img">
+          <center>
+            <img class="meet-img--image" src="../assets/images/{{ doctor.image }}"
+              alt="Dr. {{ doctor.firstname }} {{ doctor.lastname }}" />
+          </center>
+        </div>
+        <div class="meet-doctorname">
+          <p>Dr. {{ doctor.firstname }} <br />
+            {{ doctor.lastname }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="meet-button-container">
+      <button type="button" class="btn btn-outline-secondary meet-button">Meet the Doctors</button>
+    </div>
+  </div>
+</div>
