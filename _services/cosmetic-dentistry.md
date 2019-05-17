@@ -1,6 +1,8 @@
 ---
 layout: service
 title: Cosmetic Dentistry
+order:
+dropdown: true
 
 ---
 

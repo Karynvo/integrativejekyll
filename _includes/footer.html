@@ -4,70 +4,29 @@
               <div class="col-xl-3 col-lg-3 col-6">
                 <h3 class="footer-menu-title">SERVICES</h3>
                 <ul class="footer-menu">
-                  <li class="footer-menu-item">
-                    <a href="#" class="footer-menu-link">Natural Dentistry</a>
-                  </li>
-                  <li class="footer-menu-item">
-                    <a href="#" class="footer-menu-link">Cosmetic Dentistry</a>
-                  </li>
-                  <li class="footer-menu-item">
-                    <a href="#" class="footer-menu-link">Invisalign</a>
-                  </li>
-                  <li class="footer-menu-item">
-                    <a href="#" class="footer-menu-link">Mercury-Free Fillings</a>
-                  </li>
-                  <li class="footer-menu-item">
-                    <a href="#" class="footer-menu-link">Safe Mercury Removal</a>
-                  </li>
-                  <li class="footer-menu-item">
-                    <a href="#" class="footer-menu-link">Children's Dentistry</a>
-                  </li>
-                  <li class="footer-menu-item">
-                    <a href="#" class="footer-menu-link">Metal-Free Dental Implants</a>
-                  </li>
-                  <li class="footer-menu-item">
-                    <a href="#" class="footer-menu-link">Myobrace</a>
-                  </li>
-                  <li class="footer-menu-item">
-                    <a href="#" class="footer-menu-link">TMJ Treatment</a>
-                  </li>
-                  <li class="footer-menu-item">
-                    <a href="#" class="footer-menu-link">Sleep Apnea Treatment</a>
-                  </li>
-                  <li class="footer-menu-item">
-                    <a href="#" class="footer-menu-link">Orthodontics</a>
-                  </li>
-                  <li class="footer-menu-item">
-                    <a href="#" class="footer-menu-link">Periodontics</a>
-                  </li>
-                  <li class="footer-menu-item">
-                    <a href="#" class="footer-menu-link">Crowns and Onlays</a>
-                  </li>
+                {% for serv in site.services %}
+                    {% if serv.dropdown %}
+                      <li class="footer-menu-item">
+                        <a class="footer-menu-link" href={{serv.url}}>{{ serv.title }}</a>
+                      </li>
+                    {% endif %}
+                {% endfor %}
                 </ul>
               </div>
               <div class="col-xl-3 col-lg-3 col-6">
                 <h3 class="footer-menu-title">OVERVIEW</h3>
                 <ul class="footer-menu">
                   <li class="footer-menu-item">
-                    <a href="#" class="footer-menu-link">About Us</a>
-                  </li>
-                  <li class="footer-menu-item">
-                    <a href="#" class="footer-menu-link">Services</a>
-                  </li>
-                  <li class="footer-menu-item">
                     <a href="#" class="footer-menu-link">Meet Your Dentists</a>
                   </li>
                   <li class="footer-menu-item">
-                    <a href="#" class="footer-menu-link">Our Office and Technology</a>
+                    <a href="/services/natural-dentistry" class="footer-menu-link">Natural Dentistry</a>
                   </li>
                   <li class="footer-menu-item">
-                    <a href="#" class="footer-menu-link">Why We Are Different</a>
+                    <a href="/services/our-office-and-technology" class="footer-menu-link">Our Office and Technology</a>
                   </li>
                   <li class="footer-menu-item">
-                    <a href="#" class="footer-menu-link">ITEM</a>
-                  </li>
-                  <li class="footer-menu-item">
-                    <a href="#" class="footer-menu-link">ITEM</a>
+                    <a href="/services/why-we-are-different" class="footer-menu-link">Why We Are Different</a>
                   </li>
                 </ul>
               </div>
@@ -91,7 +50,7 @@
                 </div>
                 <div class="mb-4">
                   <a href="https://search.google.com/local/writereview?placeid=ChIJyVm_a_8TkFQRbV0GPy5LEhI" target="_blank">
-                    <img class="footer-google" src="../assets/images/Google-Reviews.png" alt="Google Reviews *****">
+                    <img class="footer-google" src="/assets/images/Google-Reviews.png" alt="Google Reviews *****">
                   </a>
                 </div>
               </div>

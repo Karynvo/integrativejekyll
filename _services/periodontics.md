@@ -1,6 +1,8 @@
 ---
 layout: service
 title: Periodontics
+order:
+dropdown: true
 
 ---
 

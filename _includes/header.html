@@ -11,14 +11,14 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto:100,300,400|Roboto+Condensed|Playfair+Display|Open+Sans"
         rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="../assets/js/index.js"></script>
+    <script src="/assets/js/index.js"></script>
 </head>
 
 <body>
@@ -39,7 +39,7 @@
     </div>
     <div class="row">
         <div class="mx-auto logo-container">
-            <a href="/"><img class="logo" src="../assets/images/logo.png" alt="Integrative Dentistry Logo" /></a>
+            <a href="/"><img class="logo" src="/assets/images/logo.png" alt="Integrative Dentistry Logo" /></a>
         </div>
     </div>
     <div class="row sticky-top">
@@ -65,18 +65,20 @@
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     {% for serv in site.services %}
-                                    <a class="dropdown-item" href={{serv.url}}>{{ serv.title }}</a>
+                                        {% if serv.dropdown %}
+                                            <a class="dropdown-item" href={{serv.url}}>{{ serv.title }}</a>
+                                        {% endif %}
                                     {% endfor %}
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Natural Dentistry</a>
+                                <a class="nav-link" href="/services/natural-dentistry">Natural Dentistry</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Our Office And Technology</a>
+                                <a class="nav-link" href="/services/our-office-and-technology">Our Office And Technology</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Why We Are Different</a>
+                                <a class="nav-link" href="/services/why-we-are-different">Why We Are Different</a>
                             </li>
                         </ul>
                     </div>

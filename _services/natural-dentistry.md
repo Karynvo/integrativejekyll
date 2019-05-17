@@ -1,6 +1,8 @@
 ---
 layout: service
 title: Natural Dentistry
+order:
+dropdown: false
 
 ---
 
