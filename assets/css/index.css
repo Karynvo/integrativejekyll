@@ -131,6 +131,12 @@
     }
 }
 
+@media (min-width: 991.99px){
+    .contact-footer {
+        display: none;
+    }
+}
+
 .navbar-close {
     display: none;
 }
