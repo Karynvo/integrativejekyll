@@ -40,6 +40,95 @@
     .book-button {
         padding: 4px 12px!important;
     }
+
+    .contact-footer {
+        display: flex;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #f8f8f8;
+        width: 100%;
+        padding: 20px;
+        justify-content: space-between;
+    }
+    
+    .contact-footer-number {
+        color: white;
+        width: 158px;
+        height: 36px;
+        position: relative;
+        background-color: teal;
+        border-radius: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 38px;
+        border: 1px solid white;
+        -webkit-box-align: center;
+        -webkit-box-pack: center;
+    }
+    
+    .contact-footer-info {
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 39px;
+        height: 39px;
+        border-radius: 50%;
+        position: absolute;
+        right: 30px;
+        bottom: 18px;
+        background-color: white;
+    }
+    
+    .contact-footer-menu {
+        display: none;
+        position: absolute;
+        padding: 0;
+        list-style: none;
+        width: 82px;
+        right: 10px;
+        bottom: 50px;
+        border-radius: 15px;
+        line-height: 11px;
+        background-color: teal;
+    }
+    
+    .contact-footer-item {
+        padding: 12px;
+    }
+    
+    .contact-footer-item a {
+        color: white;
+    }
+    
+    .bar-active .contact-footer-menu {
+        display: block;
+    }
+    
+    .bar-active .contact-footer-info {
+        background: #3b3b3b;
+        color: #FFFFFF;
+    }
+    
+    .bar-active .contact-footer-info span {
+        display: none;
+    }
+    
+    .bar-active .contact-footer-info:after {
+        content: "x";
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        font-size: 22px;
+        line-break: 38px;
+    }
 }
 
 .navbar-close {
