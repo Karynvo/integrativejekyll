@@ -13,7 +13,7 @@
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/index.css">
     <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto:100,300,400|Roboto+Condensed|Playfair+Display|Open+Sans"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto:100,300,400|Roboto+Condensed|Playfair+Display|Open+Sans|Montserrat:200"
         rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -25,15 +25,10 @@
     <div class="row header-info-bar">
         <div class="col">
             <div class="float-right upper-header">
-                <ul class="nav float-right">
-                    <li class="nav-item">
-                        <p class="nav-link">(206) 367-6453</p>
-                    </li>
-                    <li class="nav-item">
-                        <button class="btn book-button" data-toggle="modal" data-target="#contactModal">BOOK
-                            APPOINTMENT</button>
-                    </li>
-                </ul>
+                <div><a class="btn book-button" role="button" href="bookappointment.html">BOOK APPOINTMENT</a></div>
+                <div style="text-align: center">
+                    <a href="tel:(206) 367-6453" class="header-phone">(206) 367-6453</a>
+                </div>
             </div>
         </div>
     </div>
@@ -50,10 +45,10 @@
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
-                        <button class="btn book-button navbar-toggler" type="button" data-toggle="modal"
-                        data-target="#contactModal">BOOK <br />
-                            APPOINTMENT</button>
                     </button>
+                    <div><a class="btn book-button navbar-toggler" role="button" href="/bookappointment.html">BOOK
+                            <br />
+                            APPOINTMENT</a></div>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <a href="#" class="navbar-close">x</a>
@@ -68,9 +63,9 @@
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     {% for serv in site.services %}
-                                        {% if serv.dropdown %}
-                                            <a class="dropdown-item" href={{serv.url}}>{{ serv.title }}</a>
-                                        {% endif %}
+                                    {% if serv.dropdown %}
+                                    <a class="dropdown-item" href={{serv.url}}>{{ serv.title }}</a>
+                                    {% endif %}
                                     {% endfor %}
                                 </div>
                             </li>
@@ -78,7 +73,8 @@
                                 <a class="nav-link" href="/services/natural-dentistry">Natural Dentistry</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/services/our-office-and-technology">Our Office And Technology</a>
+                                <a class="nav-link" href="/services/our-office-and-technology">Our Office And
+                                    Technology</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/services/why-we-are-different">Why We Are Different</a>

@@ -129,6 +129,10 @@
         font-size: 22px;
         line-break: 38px;
     }
+
+    .footer-wrapper {
+        margin-bottom: 40px;
+    }
 }
 
 @media (min-width: 991.99px){
@@ -179,6 +183,12 @@ a:hover {
     font-weight: 300;
     letter-spacing: 2px;
     font-size: .8rem;
+}
+
+.header-phone {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
 }
 
 .footer-wrapper {
@@ -475,7 +485,7 @@ a:hover {
     text-align: center;
 }
 
-.service-wrapper a {
+.service-body a {
     color: turquoise;
 }
 
@@ -488,4 +498,37 @@ a:hover {
 
 .service-body ul {
     list-style: none;
+}
+
+.book-header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-family: 'Montserrat';
+}
+
+.book-wrapper {
+    width: 60%;
+    margin-bottom: 70px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.book-submit {
+    border-radius: 30px;
+    text-transform: uppercase;
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #9b9b9b;
+}
+
+.book-small-text {
+    font-size: 12px;
+}
+
+.book-label {
+    font-weight: 600;
+}
+
+.book-radio {
+    font-size: 15px;
 }

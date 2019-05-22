@@ -1,0 +1,57 @@
+---
+layout: default
+title: Home
+---
+<h1 class="book-header">Request an Appointment</h1>
+<div class="container book-wrapper">
+  <form action="https://formspree.io/xgpapeqm" method="POST">
+    <div class="form-row">
+      <div class="form-group col">
+        <input type="name" name="name" class="form-control" placeholder="Full Name">
+      </div>
+      <div class="form-group col">
+        <input type="phone" name="phone" class="form-control" placeholder="Cell Number">
+      </div>
+    </div>
+    <div class="form-group">
+      <input type="email" name="email" class="form-control" placeholder="Email (required)">
+    </div>
+    <div class="form-group">
+      <label class="book-label">I would like to (choose one)</label>
+      <div class="form-check book-radio">
+        <input type="radio" class="form-check-input" name="options" value="New Patient" id="new_pt">
+        <label class="form-check-label" for="new_pt">Schedule a new patient appointment</label>
+      </div>
+      <div class="form-check book-radio">
+        <input type="radio" class="form-check-input" name="options" value="Checkup" name="routine">
+        <label class="form-check-label" for="routine">Schedule a routine checkup</label>
+      </div>
+      <div class="form-check book-radio">
+        <input type="radio" class="form-check-input" name="options" value="Dental Exam" name="exam" id="exam">
+        <label class="form-check-label" for="exam">Schedule a comprehensive dental exam</label>
+      </div>
+      <div class="form-check book-radio">
+        <input type="radio" class="form-check-input" name="options" value="Consultation" id="consultation">
+        <label class="form-check-label" for="consultation">Schedule a consultation</label>
+      </div>
+      <div class="form-check book-radio">
+        <input type="radio" class="form-check-input" name="options" value="Not Sure" id="not-sure">
+        <label class="form-check-label" for="not-sure">Not sure (For example: My tooth hurts and I need to see the
+          doctor.)</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="book-label">Message (optional)</label>
+      <textarea name="message" class="form-control" rows="3" placeholder="What time and days works best for you?"></textarea>
+    </div>
+    <div class="form-row">
+      <div class="col">
+      <button class="btn book-submit" type="submit">Submit</button>
+    </div>
+    <div class="col book-small-text">
+      If you prefer to speak to a team member, please call (931) 201-9218
+    </div>
+    </div>
+    <input type="hidden" name="_next" value="http://localhost:4000/thanks.html" />
+  </form>
+</div>
