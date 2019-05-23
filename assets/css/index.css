@@ -131,7 +131,15 @@
     }
 
     .footer-wrapper {
-        margin-bottom: 40px;
+        margin-bottom: 76px;
+    }
+
+    .doctor-image {
+        width: 50% !important;
+    }
+
+    .doctor-image-wrapper {
+        text-align: center;
     }
 }
 
@@ -170,6 +178,10 @@ a:hover {
 @media (min-width: 700px){
     .logo {
         width: 600px;
+    }
+
+    .book-wrapper {
+        width: 60%;
     }
 }
 
@@ -354,6 +366,7 @@ a:hover {
     margin-bottom: 40px;
 }
 
+.doctor-title,
 .service-title,
 .meet-title,
 .who-title {
@@ -508,7 +521,6 @@ a:hover {
 }
 
 .book-wrapper {
-    width: 60%;
     margin-bottom: 70px;
     font-family: 'Open Sans', sans-serif;
 }
@@ -531,4 +543,19 @@ a:hover {
 
 .book-radio {
     font-size: 15px;
+}
+
+.doctor-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.doctor-body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    line-height: 1.9;
+}
+
+.doctor-image {
+    width: 100%;
 }

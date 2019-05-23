@@ -4,18 +4,13 @@ title: Meet Your Dentists
 ---
 
 <div class="container">
-    <h1>Meet Your Dentists</h1>
-
-    <p>This page is under construction</p>
-</div>
-<!-- <ul>
-    {% assign sorted_staff = site.staff | sort:"order" %}
-    {% for staff in sorted_staff %}
-    <li>
-        <h2>{{ staff.name }}</h2>
-        <h3>{{ staff.position }}</h3>
-        <p>{{ staff.content | markdownify }}</p>
-        <img src="/assets/images/{{ staff.image }}" />
-    </li>
+    {% assign sorted_doctors = site.doctors | sort:"order" %}
+    {% for doctor in sorted_doctors %}
+        {% assign remainder = forloop.index | modulo: 2 %}
+        {% if remainder == 0 %}
+            {% include doctor-right.html %}
+        {% else %}
+            {% include doctor-left.html %}
+        {% endif %}
     {% endfor %}
-</ul> -->
+</div>

@@ -1,21 +1,29 @@
 ---
-name: Bramley Birrer
-positon: Dentist
+firstname: Bramley
+lastname: Birrer
 order: 1
 image: birrer.jpg
+frontpage: true
 ---
-> As my patient, you are not just another set of teeth; you are another conversation, another story, another friendship. By knowing who you are, I can know what your teeth mean to you, and this is where dentistry begins.
+
+*As my patient, you are not just another set of teeth; you are another conversation, another story, another friendship. By knowing who you are, I can know what your teeth mean to you, and this is where dentistry begins.*
  
 ### EDUCATION  
-D.D.S.  
-*Outstanding Achievement in Public Health*  
-UCLA, School of Dentistry  
-Los Angeles, CA  
-
-B.A., Philosophy  
-*Summa Cum Laude*  
-UCLA  
+<div class="row">
+<div class="col">
+D.D.S.<br>
+Outstanding Achievement in Public Health<br>
+UCLA, School of Dentistry<br>
 Los Angeles, CA
+</div>
+<div class="col">
+B.A., Philosophy<br>
+Summa Cum Laude<br>
+UCLA<br>
+Los Angeles, CA
+</div>
+</div>
+<br>
 
 ### EXPERTISE
 + SMART (Safe Mercury Amalgam Removal Technique) Certified with IAOMT (International Academy of Oral Medicine & Toxicology)

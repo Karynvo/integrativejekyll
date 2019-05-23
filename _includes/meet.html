@@ -2,20 +2,22 @@
   <div class="container">
     <h2 class="meet-title">Your Holistic Dentists</h2>
     <div class="row meet-container">
-      {% assign sorted_doctors = site.doctors-about | sort:"order" %}
+      {% assign sorted_doctors = site.doctors | sort:"order" %}
       {% for doctor in sorted_doctors %}
-      <div class="col">
-        <div class="meet-img">
-          <center>
-            <img class="meet-img--image" src="../assets/images/{{ doctor.image }}"
-              alt="Dr. {{ doctor.firstname }} {{ doctor.lastname }}" />
-          </center>
-        </div>
-        <div class="meet-doctorname">
-          <p>Dr. {{ doctor.firstname }} <br />
-            {{ doctor.lastname }}</p>
-        </div>
-      </div>
+        {% if doctor.frontpage == true %}
+          <div class="col">
+            <div class="meet-img">
+              <center>
+                <img class="meet-img--image" src="../assets/images/{{ doctor.image }}"
+                  alt="Dr. {{ doctor.firstname }} {{ doctor.lastname }}" />
+              </center>
+            </div>
+            <div class="meet-doctorname">
+              <p>Dr. {{ doctor.firstname }} <br />
+                {{ doctor.lastname }}</p>
+            </div>
+          </div>
+        {% endif %}
       {% endfor %}
     </div>
     <div class="meet-button-container">
