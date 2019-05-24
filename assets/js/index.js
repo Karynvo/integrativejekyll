@@ -6,4 +6,32 @@ jQuery(document).ready(function ($) {
   $('.contact-footer-info').on('click',function() {
     $('.contact-footer').toggleClass('bar-active');
   });
+
+  $("form[name='book'").validate({
+    rules: {
+      name: "required",
+      phone: "required",
+      email: {
+        required: true,
+        email: true
+      },
+      options: "required"
+    },
+    messages: {
+      name: "Please enter your name",
+      phone: "Please enter your phone number",
+      email: "Please enter your email address",
+      options: "Please select an option"
+    },
+    submitHandler: function(form){
+      form.submit();
+    },
+    errorPlacement: function(error, element){
+      if(element.prop('name') == 'options'){
+        error.appendTo('.book-radio-group');
+      }else{
+        error.insertAfter(element);
+      }
+    }
+  })
 });

@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Home
+title: Request An Appointment
 ---
 <h1 class="book-header">Request an Appointment</h1>
 <div class="container book-wrapper">
-  <form action="https://formspree.io/xgpapeqm" method="POST">
+  <form action="https://formspree.io/xgpapeqm" method="POST" name="book">
     <div class="form-row">
       <div class="form-group col">
         <input type="name" name="name" class="form-control" placeholder="Full Name">
@@ -16,7 +16,7 @@ title: Home
     <div class="form-group">
       <input type="email" name="email" class="form-control" placeholder="Email (required)">
     </div>
-    <div class="form-group">
+    <div class="form-group book-radio-group">
       <label class="book-label">I would like to (choose one)</label>
       <div class="form-check book-radio">
         <input type="radio" class="form-check-input" name="options" value="New Patient" id="new_pt">
@@ -49,7 +49,7 @@ title: Home
       <button class="btn book-submit" type="submit">Submit</button>
     </div>
     <div class="col book-small-text">
-      If you prefer to speak to a team member, please call (931) 201-9218
+      If you prefer to speak to a team member, please call <a href="tel:(206) 367-6453">(206) 367-6453</a>
     </div>
     </div>
     <input type="hidden" name="_next" value="http://localhost:4000/thanks.html" />

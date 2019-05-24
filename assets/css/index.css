@@ -559,3 +559,11 @@ a:hover {
 .doctor-image {
     width: 100%;
 }
+
+label.error {
+    display: none;
+}
+
+.error {
+    color: red;
+}
