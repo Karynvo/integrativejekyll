@@ -1,9 +1,11 @@
 ---
 layout: service
-title: Orthodontics
+title: Orthodontics In Seattle, WA | Orthodontist & Teeth Straightening Dentist
+pagetitle: Orthodontics
 order:
 dropdown: true
-
+description: Improve your personal appearance with Orthodontics. We offers orthodontic services for children and adults of the Seattle, WA. Call @ 206367-6453!
+permalink: /services/orthodontics-seattle/
 ---
 
 Most people look at orthodontics as a way to improve their smile by creating more perfectly aligned teeth. Of course, straight teeth are a major goal of this process, but orthodontics in our Seattle practice go beyond straight teeth. Our holistic approach to orthodontics really focuses on jaw health and postural balance. Total structural health must be an integral part of a comprehensive orthodontic protocol. Total wellness is what is reflected in a beautiful smile.

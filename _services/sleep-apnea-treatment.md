@@ -1,9 +1,11 @@
 ---
 layout: service
-title: Sleep Apnea Treatment
+title: Sleep Apnea Seattle, WA | Sleep Apnea Disorder Treatments
+pagetitle: Sleep Apnea Treatment
 order:
 dropdown: true
-
+description: Suffering from sleep apnea? We providing overnight sleep screening and treatments for sleep apnea in Seattle, WA. Call at 206367-6453 for appointment.
+permalink: /services/sleep-apnea-seattle-treatment/
 ---
 
 Chronic sleep disorders affect more than a good night’s sleep. If you are suffering from a sleep disorder, your body has to work harder to maintain proper overall health. Excessive daytime sleepiness, depression, mood swings, learning and memory difficulties, weight gain, and headaches are all known effects of sleep disorders. Additionally, conditions such as high blood pressure, cardiovascular disease, heart attack, and stroke are all associated with sleep disorders. Among the most common sleep disorders today is Sleep Apnea. Our Seattle holistic team is pleased to offer patients solution that can almost immediately affect their daily quality of life. Get a Seattle sleep apnea treatment that will change your life!

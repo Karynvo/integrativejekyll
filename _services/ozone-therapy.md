@@ -1,6 +1,7 @@
 ---
 layout: service
 title: Ozone Therapy
+pagetitle: Ozone Therapy
 order:
 dropdown: true
 videos:

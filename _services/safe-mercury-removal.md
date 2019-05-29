@@ -1,9 +1,11 @@
 ---
 layout: service
-title: Safe Mercury Removal
+title: Seattle Mercury Free Dentist Removal
+pagetitle: Safe Mercury Removal
 order:
 dropdown: true
-
+description: Specializing in Seattle mercury-free dentistry, Dr. Marder has created a highly effective, safe mercury removal protocol to protect you and your smile.
+permalink: /services/seattle-mercury-free-dentist-removal/
 ---
 
 At Integrative Dentistry, we go above and beyond the standards of dentistry to protect our patients, ourselves, and our external environment. Many of today’s dentists provide treatments to remove mercury fillings from the mouth. However, most don’t take the extra steps needed to ensure the safety and long-term well-being of all involved in the process. As your Seattle mercury-free dentist, Dr. Marder and our team take utmost care in protecting you, and everyone else in our office, during our safe mercury removal procedure.

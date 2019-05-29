@@ -1,9 +1,11 @@
 ---
 layout: service
-title: Natural Dentistry
+title: Natural Dentistry Seattle
+pagetitle: Natural Dentistry
 order:
 dropdown: false
-
+description: At our office in Seattle, natural dentistry goes beyond traditional oral health care; we provide solutions, materials, and homeopathic remedies.
+permalink: /services/natural-dentistry-seattle/
 ---
 
 At Integrative Dentistry, we intertwine conventional modern dentistry with natural and biological concepts. We provide a different kind of approach to your oral health, looking at the mouth and body as one entity to help you make safe, informed decisions in relation to your entire body. For our practice in Seattle, natural dentistry extends beyond conventional oral health care; we provide alternative strategies as well to improve your overall wellness–your body, your spirit, and your smile.

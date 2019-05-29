@@ -1,9 +1,11 @@
 ---
 layout: service
-title: Mercury BPA-Free Fillings
+title: Mercury Free Dentist Seattle Fillings
+pagetitle: Mercury BPA-Free Fillings
 order:
 dropdown: true
-
+description: As a mercury-free dentist in Seattle, we use porcelain and composite resins to protect your overall health while treating your smile.
+permalink: /services/mercury-free-dentist-seattle-fillings/
 ---
 
 At Integrative Dentistry, we pay close attention to ensure the treatments we offer and the materials used stay in tune with our biological philosophy. This means we limit the amount of metal dentistry used and place extra emphasis on being a mercury-free practice. As a mercury-free dentist in Seattle, our doctors choose porcelain and composite resin materials whenever we can to fill a cavity or fix a broken tooth. This means you’re protecting your overall health while we’re treating your dental needs.

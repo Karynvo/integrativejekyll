@@ -1,9 +1,11 @@
 ---
 layout: service
-title: Periodontics
+title: Periodontist Seattle, WA | Periodontics & Gum Treatment Specialists
+pagetitle: Periodontics
 order:
 dropdown: true
-
+description: Get expert periodontist to help protect your gums. We offer advanced dental treatments in Seattle, WA and nearby areas. Call @ 206367-6453!
+permalink: /services/periodontics-seattle/
 ---
 
 Periodontal (gum) disease is an inflammatory condition affecting four out of five American adults. Unfortunately, many people don’t even realize they have it, often because they ignore the symptoms and cannot see the infection nor feel any pain. Periodontal disease is the leading cause of tooth loss, but the ill-effects of inflammation extend beyond your mouth and smile.

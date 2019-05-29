@@ -1,9 +1,11 @@
 ---
 layout: service
 title: Why We Are Different
+pagetitle: Why We Are Different
 order:
 dropdown: false
-
+description: Our Seattle holistic dentist combines the standards of care with a natural, whole-body approach. Specialties include bio-compatibility and homeopathy.
+permalink: /about-us/seattle-holistic-dentist-why-different/
 ---
 
 Here at Integrative Dentistry we invite you to take part in a different kind of dental experience. Here, our Seattle holistic team of dentists practice dentistry from a holistic and naturopathic standpoint, carefully analyzing your system as a whole instead of a collection of different body parts. This means we assess your oral health as a representation of your total health and wellness, as well as the opposite; looking at how your systemic health affects your oral health! Then, we integrate both traditional and alternative treatments to improve your well-being both systemically and orally.

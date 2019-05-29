@@ -1,9 +1,10 @@
 ---
 layout: service
 title: Invisalign
+pagetitle: Invisalign
 order:
 dropdown: true
-
+description: If you want to achieve the smile of your dreams without your treatment interfering with your day-to-day life, the best solution for you is Invisalign.
 ---
 
 One of the best and most preferred dental options for achieving a perfect smile is orthodontic treatment. In fact, there are more than 5 million Americans, who are currently going through straightening of their bite. The most popular method, used in orthodontics, are braces. However, many adults are concerned about wearing them, mainly because they are visible and could cause some irritation and discomfort.

@@ -1,9 +1,11 @@
 ---
 layout: service
-title: Metal-Free Dental Implants
+title: Dental Implants Seattle, WA | Dental Bridges Bellevue WA
+pagetitle: Metal-Free Dental Implants
 order:
 dropdown: true
-
+description: Rejuvenate your smile with implant dentistry! We provide a full range of dental and cosmetic services in Seattle WA and its surrounding areas. Call @ 206367-6453!
+permalink: /services/dental-implants-seattle-mercury-free/
 ---
 
 Dental implants have been used in restorative dentistry for decades and have quickly become the gold standard in tooth replacement. Patients and doctors alike often choose dental implants for tooth replacement due to both their aesthetic appearance, as well as the unique benefits they provide in both health and function. Traditionally, these restorations are fabricated of dental-grade titanium, but now we’re excited to offer a non-metal alternative in dental implants Seattle. Dr. Marder has the ability to replace missing teeth while staying in line with our holistic and biological values—by offering our patients non-metal zirconia implants!

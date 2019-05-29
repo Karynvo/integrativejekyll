@@ -1,9 +1,11 @@
 ---
 layout: service
 title: Same-Day Ceramic Crowns and Onlays
+pagetitle: Same-Day Ceramic Crowns and Onlays
 order:
 dropdown: true
-
+description: Restore damaged teeth with dental crowns and CEREC restorations. We offer same day CEREC restorations and crowns treatment in Seattle WA. Call @ 206367-6453!
+permalink: /services/dental-crowns-seattle-onlays/
 ---
 
 Holistic dentistry is all about taking the right steps to collaborate oral health treatments with an overall health plan for optimum systemic health. At Integrative Dentistry, implementing the use of bio-compatible materials for our dental restorations is part of our biological approach. We do Seattle crowns in a natural and holistic way. That’s why we offer CEREC same-day all-porcelain, hybrid porcelain-plastic, and BPA-free onlays and crowns to Seattle area patients seeking a more natural way to restore their smiles.

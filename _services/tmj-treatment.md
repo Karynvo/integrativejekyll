@@ -1,9 +1,11 @@
 ---
 layout: service
-title: TMJ Treatment
+title: TMJ Doctor Seattle, WA | TMJ Treatment Specialist | Naturopathic Dentist
+pagetitle: TMJ Treatment
 order:
 dropdown: true
-
+description: Find experts for TMJ disorders in Seattle, WA. We offer advanced TMJ treatment and other dental services in Seattle, WA and surrounding areas.
+permalink: /services/tmj-seattle-treatment/
 ---
 
 It may be hard to imagine that a problem in your jaw could actually be the root cause of pain in almost any other part of your body, but it’s true. Severe headaches, jaw, neck, back, and shoulder pain, and a wide variety of other symptoms have been associated with Temporo-Mandibular Joint (Jaw Joint) Disorder, many of which can improve with the right type of treatment therapy for the jaw joint. Having completed extensive research and continuing studies regarding the TMJ, Seattle area holistic dentist, Dr. Mitch Marder can likely help you find relief from these bothersome symptoms.

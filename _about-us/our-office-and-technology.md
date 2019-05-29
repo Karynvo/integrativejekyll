@@ -1,9 +1,11 @@
 ---
 layout: service
-title: Our Office and Technology
+title: Naturopathic Dentist Seattle | Office and Technology | Dr Mitch Marder
+pagetitle: Our Office and Technology
 order:
 dropdown: false
-
+description: As a holistic and naturopathic dentist in Seattle, Dr. Marder and our team strive to maintain a healthy and eco-environment for our patients.
+permalink: /about-us/naturopathic-dentist-seattle-office/
 ---
 
 Consistent with the holistic care and biologic safety of our treatments, at Integrative Dentistry, we advocate for our environment by working in a setting designed to respect and conserve our earth’s natural resources. Our office was designed to represent an eco-friendly environment consistent with our healthy approach! This means our leading Holistic Dentist in Seattle also takes seriously the biological/environmental safety of every treatment, every material, the daily practices, as well as the office itself.

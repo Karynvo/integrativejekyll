@@ -1,6 +1,7 @@
 ---
 layout: service
 title: Advanced Platelet Rich Fibrin
+pagetitle: Advanced Platelet Rich Fibrin
 order:
 dropdown: true
 videos:
