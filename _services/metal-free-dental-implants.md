@@ -1,6 +1,6 @@
 ---
 layout: service
-title: Dental Implants Seattle, WA | Dental Bridges Bellevue WA
+title: Dental Implants and Dental Bridges in Seattle and Bellevue, WA
 pagetitle: Metal-Free Dental Implants
 order:
 dropdown: true

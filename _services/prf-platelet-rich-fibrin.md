@@ -1,6 +1,6 @@
 ---
 layout: service
-title: Advanced Platelet Rich Fibrin
+title: Advanced Platelet Rich Fibrin in Seattle, WA
 pagetitle: Advanced Platelet Rich Fibrin
 order:
 dropdown: true
@@ -8,7 +8,8 @@ videos:
   - video-link: https://www.youtube.com/embed/88tUb0AzEQk
   - video-link: https://www.youtube.com/embed/WL30LzLGXTg
   - video-link: https://www.youtube.com/embed/rlc1-ieDniY
-
+description: Platelet Rich Fibrin is a new holistic surgical protocol that uses your body's own natural healing. We offer PRF in Seattle, WA. Call @ 206367-6453!
+permalink: /services/prf-platelet-rich-fibrin-seattle/
 ---
 
 Platelet Rich Fibrin (PRF) is a fully autologous 100% natural blood concentrate obtained via simplified low-speed centrifugation that accelerates wound healing, enhances tissue regeneration, eliminates infections, and reduces pain and swelling following dental surgery. PRF is part of a new [holistic surgical protocol](swiss-surgical-technique.html) that utilizes your body’s own natural healing capacity to improve recovery from appointments involving dental extractions and implant placements.

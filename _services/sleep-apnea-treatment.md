@@ -1,6 +1,6 @@
 ---
 layout: service
-title: Sleep Apnea Seattle, WA | Sleep Apnea Disorder Treatments
+title: Sleep Apnea Disorder Treatments Seattle, WA
 pagetitle: Sleep Apnea Treatment
 order:
 dropdown: true

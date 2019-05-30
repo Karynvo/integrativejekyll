@@ -1,10 +1,10 @@
 ---
 layout: service
-title: Naturopathic Dentist Seattle | Office and Technology | Dr Mitch Marder
+title: Office and Technology Naturopathic Dentist Seattle 
 pagetitle: Our Office and Technology
 order:
 dropdown: false
-description: As a holistic and naturopathic dentist in Seattle, Dr. Marder and our team strive to maintain a healthy and eco-environment for our patients.
+description: As a holistic and naturopathic dentist in Seattle, Dr. Birrer and our team strive to maintain a healthy and eco-environment for our patients.
 permalink: /about-us/naturopathic-dentist-seattle-office/
 ---
 

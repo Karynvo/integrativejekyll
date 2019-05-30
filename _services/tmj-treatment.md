@@ -1,6 +1,6 @@
 ---
 layout: service
-title: TMJ Doctor Seattle, WA | TMJ Treatment Specialist | Naturopathic Dentist
+title: TMJ Treatment Doctor and Specialist/Naturopathic Dentist Seattle, WA
 pagetitle: TMJ Treatment
 order:
 dropdown: true

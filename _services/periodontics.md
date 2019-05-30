@@ -1,6 +1,6 @@
 ---
 layout: service
-title: Periodontist Seattle, WA | Periodontics & Gum Treatment Specialists
+title: Periodontics & Gum Treatment Specialists in Seattle, WA
 pagetitle: Periodontics
 order:
 dropdown: true

@@ -1,6 +1,6 @@
 ---
 layout: service
-title: Natural Dentistry Seattle
+title: Natural Dentistry in Seattle, WA
 pagetitle: Natural Dentistry
 order:
 dropdown: false

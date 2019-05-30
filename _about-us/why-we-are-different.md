@@ -1,6 +1,6 @@
 ---
 layout: service
-title: Why We Are Different
+title: Why We Are Different Naturopathic Dentist Seattle 
 pagetitle: Why We Are Different
 order:
 dropdown: false

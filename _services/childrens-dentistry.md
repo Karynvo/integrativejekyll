@@ -1,6 +1,6 @@
 ---
 layout: service
-title: Pediatric Dentistry Bellevue, WA Childrens/kids Dentist Seattle, Kirkland
+title: Pediatric/Childrens/kids Dentistry Seattle, Kirkland, and Bellevue, WA
 pagetitle: Children's Dentistry
 order:
 dropdown: true

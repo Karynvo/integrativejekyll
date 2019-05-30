@@ -1,6 +1,6 @@
 ---
 layout: service
-title: Same-Day Ceramic Crowns and Onlays
+title: Same-Day Ceramic Crowns, CEREC Restorations, and Onlays Seattle, WA
 pagetitle: Same-Day Ceramic Crowns and Onlays
 order:
 dropdown: true
