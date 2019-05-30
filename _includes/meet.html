@@ -9,7 +9,7 @@
             <div class="meet-img">
               <center>
                 <img class="meet-img--image" src="../assets/images/{{ doctor.image }}"
-                  alt="Dr. {{ doctor.firstname }} {{ doctor.lastname }}" />
+                  alt="Dr. {{ doctor.firstname }} {{ doctor.lastname }}" title="Dr. {{ doctor.firstname }} {{ doctor.lastname }}"/>
               </center>
             </div>
             <div class="meet-doctorname">
@@ -21,7 +21,7 @@
       {% endfor %}
     </div>
     <div class="meet-button-container">
-      <button type="button" class="btn btn-outline-secondary meet-button">Meet the Doctors</button>
+      <a href="/meet-the-doctors/"><button type="button" class="btn btn-outline-secondary meet-button">Meet the Doctors</button></a>
     </div>
   </div>
 </div>
