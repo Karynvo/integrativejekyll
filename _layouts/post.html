@@ -1,0 +1,13 @@
+{% include header.html %}
+<div style="background-image: url(../../assets/images/Banff1.jpg);height:800px;background-size:cover"></div>
+<div class="container">
+    <h2 class="post-title">{{ page.title }}</h2>
+    <hr>
+    <div class="post-body">
+        {{ content }}
+    </div>
+    <div style="text-align:center;"><a class="btn btn-outline-secondary service-button" role="button" href="/request-an-appointment/">Book Appointment</a></div>
+</div>
+{% include reviews.html %}
+{% include modal.html %}
+{% include footer.html %}
