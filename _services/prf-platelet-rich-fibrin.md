@@ -47,8 +47,4 @@ __Downloads__:
 
 [Foreign Body Reaction to Biomaterials](https://drive.google.com/file/d/1jsfZC3tIkyyReNme8OkjZbgLUItxkhxp/view?usp=sharing)
 
-<br/>
-__Keywords__:
-
-<sub>PRF, A-PRF, A-PRF+, i-PRF, platelet rich fibrin, platelet-rich fibrin, blood, healing, regenerate, regeneration, natural, pure, autologous, biomaterial, surgery, Richard Miron, Joseph Choukroun</sub>
 
