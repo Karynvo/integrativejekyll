@@ -31,6 +31,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate-v2
 
 # Collections
 collections:
@@ -42,9 +43,20 @@ collections:
   about-us:
     output: true
     permalink: /about-us/:name/
-  blog-posts:
+  blog:
     output: true
     permalink: /blog/
+
+autopages:
+  enabled: true
+  collections:
+    enabled: true
+
+pagination:
+  enabled: true
+  collection: 'blog'
+  per_page: 10
+  permalink: 'page/:num/'
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
