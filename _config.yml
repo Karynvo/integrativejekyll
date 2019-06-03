@@ -42,7 +42,9 @@ collections:
   about-us:
     output: true
     permalink: /about-us/:name/
-  posts:
+  blog-posts:
+    output: true
+    permalink: /blog/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
