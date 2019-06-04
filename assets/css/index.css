@@ -159,8 +159,13 @@
     width: 100%;
 } */
 
-a {
-    color: black;
+.footer-social a,
+.footer-menu a {
+    color: black!important;
+}
+
+body a {
+    color: turquoise;
 }
 
 a:hover {
@@ -503,10 +508,6 @@ a:hover {
     text-align: center;
 }
 
-.service-body a {
-    color: turquoise;
-}
-
 .post-list-wrapper hr, 
 .service-wrapper hr {
     width: 10%;
@@ -558,7 +559,7 @@ a:hover {
 
 .doctor-body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.9;
 }
 

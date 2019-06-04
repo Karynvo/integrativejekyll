@@ -14,11 +14,11 @@ Newly remodeled, our ultra-modern facility is located in the Northgate area of S
 
 A tremendous amount of thought went into the details of our office to inspire a healthful and harmonious patient environment. Elements such as soothing live plants, full spectrum lighting, low VOC paints, eco-friendly bamboo flooring, non-outgassing linseed coatings, and top-of-the-line air and water filtration systems, add an ambiance of refreshment and relaxation to the healthful space we have created for you, our patients. Materials used to support our environmental build out include but are not limited to:
 
-* Forbo Marmoleum flooring (www.themarmoleumstore.com)
+* [Forbo Marmoleum flooring](http://www.themarmoleumstore.com)
   * Used in our dental treatment rooms
-* Expanko Cork Tiles (www.expanko.com)
+* [Expanko Cork Tiles](http://www.expanko.com)
   * Used in our labs and our financial office area
-* EcoTimber bamboo flooring (www.ecotimber.com)
+* [EcoTimber bamboo flooring](http://www.ecotimber.com)
   * Used in our main hallway and massage room
 * EcoTimber hickory
   * Used in our main hallway
@@ -33,11 +33,11 @@ A tremendous amount of thought went into the details of our office to inspire a 
 * Formaldehyde Free Plywood
 * Lumicor Resin Panels
   * Embedded with plant material and divide our dental treatment rooms
-  * These curved panels are made from renewable resources and are beautiful and amazing! (www.lumicor.com)
+  * [These curved panels are made from renewable resources and are beautiful and amazing](http://www.lumicor.com)
 * New heating/ventilation/AC System
   * All new ducting was installed to help keep our air quality fresh, clean, and healthy
 * Caroma
-  * Low volume, dual-flush toilets were installed in both bathrooms (www.caromausa.com)
+  * [Low volume, dual-flush toilets were installed in both bathrooms](http://www.caromausa.com)
 * Filtered drinking water
 
 The treatments, materials, and technologies used in our build-out were hand-selected to fulfill our desire to give you the safest, environmentally friendly, highest quality, best bio-compatible dental care available. We are also proud to feature the following “cutting edge” technologies:
