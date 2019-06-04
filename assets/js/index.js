@@ -1,4 +1,9 @@
 jQuery(document).ready(function ($) {
+  var $sub = $("#_subject");
+	$("#email").on("input", function() {
+		$sub.val("Request Appointment (" + $(this).val() + ")");
+	});
+
   $('.navbar-close').on('click',function() {
     $('#navbarSupportedContent').removeClass('show');
   });
