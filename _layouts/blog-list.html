@@ -4,13 +4,13 @@ layout: default
 <!-- Just some nice to have styles for the pager buttons -->
 <style>
   ul.pager { text-align: center; list-style: none; }
-  ul.pager li {display: inline;border: 1px solid black; padding: 10px; margin: 5px;}
-  .selected{ background-color: magenta; }
+  ul.pager li {display: inline;border: 1px solid gray; padding: 10px; margin: 5px;}
 </style>
+<div style="background-image: url(../../assets/images/Banff1.jpg);height:800px;background-size:cover"></div>
+<div class="container post-list-wrapper">
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="post-list-title" style="text-align: center;margin-bottom:40px;">Posts</h1>
+  <hr>
   
   {{ content | markdownify }}
 
@@ -20,12 +20,11 @@ layout: default
         All calls to site.posts should be replaced by paginator.posts 
     -->
     {% for post in paginator.posts %}
-      <li>
-        <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.book.rank %} | Rank: {{ post.book.rank }}{% endif %}{% if post.collection %} | {{ post.collection }}{% endif %}{% if post.tags %}<br>Tags: {{ post.tags }}{% endif %}</span> -->
-        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        <div class="content">
+      <li class="post-container">
+        <h3 class="post-list-post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p class="post-body">
           {{ post.content | strip_html | truncatewords:150 }}
-        </div>
+        </p>
       </li>
     {% endfor %}
   </ul>

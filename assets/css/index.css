@@ -366,6 +366,7 @@ a:hover {
     margin-bottom: 40px;
 }
 
+.post-list-title,
 .post-title,
 .doctor-title,
 .service-title,
@@ -492,6 +493,7 @@ a:hover {
     text-transform: uppercase;
 }
 
+.post-list-title,
 .post-title,
 .service-title {
     margin-top: 40px;
@@ -505,6 +507,7 @@ a:hover {
     color: turquoise;
 }
 
+.post-list-wrapper hr, 
 .service-wrapper hr {
     width: 10%;
     border-color: black;
@@ -592,4 +595,18 @@ label.error {
 .post-body img {
     max-width: 400px;
     height: auto;
+}
+
+.post-list {
+    list-style: none;
+}
+
+.post-container {
+    margin-bottom: 40px;
+}
+
+.post-list-post-title {
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
 }
