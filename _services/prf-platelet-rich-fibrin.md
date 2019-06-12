@@ -12,7 +12,7 @@ description: Platelet Rich Fibrin is a new holistic surgical protocol that uses 
 permalink: /services/prf-platelet-rich-fibrin-seattle/
 ---
 
-Platelet Rich Fibrin (PRF) is a fully autologous 100% natural blood concentrate obtained via simplified low-speed centrifugation that accelerates wound healing, enhances tissue regeneration, eliminates infections, and reduces pain and swelling following dental surgery. PRF is part of a new [holistic surgical protocol](swiss-surgical-technique.html) that utilizes your body’s own natural healing capacity to improve recovery from appointments involving dental extractions and implant placements.
+Platelet Rich Fibrin (PRF) is a fully autologous 100% natural blood concentrate obtained via simplified low-speed centrifugation that accelerates wound healing, enhances tissue regeneration, eliminates infections, and reduces pain and swelling following dental surgery. PRF is part of a new [holistic surgical protocol]({{ site.baseUrl }}/services/swiss-surgical-technique) that utilizes your body’s own natural healing capacity to improve recovery from appointments involving dental extractions and implant placements.
 
 
 On the day of your surgery, pure blood drawn from your arm is lightly centrifuged and then placed into areas where we want to idealize your natural healing process without any foreign body reaction.
