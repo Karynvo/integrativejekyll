@@ -611,3 +611,10 @@ label.error {
     font-size: 24px;
     text-transform: uppercase;
 }
+
+.upper-header-tel {
+    background-color: #34b2b6;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1.5px;
+}
