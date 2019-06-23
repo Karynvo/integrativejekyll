@@ -4,7 +4,7 @@
     overflow-x: hidden;
 } */
 
-@media (max-width: 991.98px){
+@media (max-width: 1199.98px){
 
     .navbar-close {
         display: block !important;
@@ -143,7 +143,7 @@
     }
 }
 
-@media (min-width: 991.99px){
+@media (min-width: 1199.98px){
     .contact-footer {
         display: none;
     }
