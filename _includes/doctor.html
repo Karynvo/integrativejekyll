@@ -1,8 +1,8 @@
-<div class="row doctor-wrapper">
-  <div class="col-md-12 col-lg-4 doctor-image-wrapper">
+<div class="doctor-wrapper d-flex flex-column">
+  <div class="doctor-image-wrapper">
     <img class="doctor-image" src="/assets/images/{{ doctor.image }}" alt="Dr. {{ doctor.firstname }} {{ doctor.lastname }}" title="Dr. {{ doctor.firstname }} {{ doctor.lastname }}"/>
   </div>
-  <div class="col-md-12 col-lg-8 doctor-body">
+  <div class="doctor-body">
     <h1 class="doctor-title">Dr. {{ doctor.firstname }} {{ doctor.lastname }}</h1>
     <p>{{ doctor.content }}</p>
   </div>

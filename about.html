@@ -7,14 +7,9 @@ redirect_from:
     - /about-us/natural-dentist-seattle-team
 ---
 
-<div class="container">
+<div class="container about-wrapper">
     {% assign sorted_doctors = site.doctors | sort:"order" %}
     {% for doctor in sorted_doctors %}
-        {% assign remainder = forloop.index | modulo: 2 %}
-        {% if remainder == 0 %}
-            {% include doctor-right.html %}
-        {% else %}
-            {% include doctor-left.html %}
-        {% endif %}
+        {% include doctor.html %}
     {% endfor %}
 </div>

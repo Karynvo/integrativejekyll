@@ -8,6 +8,9 @@ jQuery(document).ready(function ($) {
     $('#navbarSupportedContent').removeClass('show');
   });
 
+  $( ".about-wrapper div.doctor-wrapper:even").addClass('flex-lg-row');
+  $( ".about-wrapper div.doctor-wrapper:odd").addClass('flex-lg-row-reverse');
+
   $('.contact-footer-info').on('click',function() {
     $('.contact-footer').toggleClass('bar-active');
   });
