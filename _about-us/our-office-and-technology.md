@@ -4,6 +4,7 @@ title: Office and Technology Naturopathic Dentist Seattle
 pagetitle: Our Office and Technology
 order:
 dropdown: false
+inSeattle: false
 description: As a holistic and naturopathic dentist in Seattle, Dr. Birrer and our team strive to maintain a healthy and eco-environment for our patients.
 permalink: /about-us/naturopathic-dentist-seattle-office/
 ---

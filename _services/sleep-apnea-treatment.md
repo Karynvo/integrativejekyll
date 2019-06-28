@@ -3,6 +3,7 @@ layout: service
 title: Sleep Apnea Disorder Treatments Seattle, WA
 pagetitle: Sleep Apnea Treatment
 order:
+inSeattle: true
 dropdown: true
 description: Suffering from sleep apnea? We providing overnight sleep screening and treatments for sleep apnea in Seattle, WA. Call at 206367-6453 for appointment.
 permalink: /services/sleep-apnea-seattle-treatment/

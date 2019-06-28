@@ -3,6 +3,7 @@ layout: service
 title: Periodontics & Gum Treatment Specialists in Seattle, WA
 pagetitle: Periodontics
 order:
+inSeattle: true
 dropdown: true
 description: Get expert periodontist to help protect your gums. We offer advanced dental treatments in Seattle, WA and nearby areas. Call @ 206367-6453!
 permalink: /services/periodontics-seattle/

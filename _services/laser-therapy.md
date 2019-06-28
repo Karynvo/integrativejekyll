@@ -3,6 +3,7 @@ layout: service
 title: Laser Therapy
 pagetitle: Laser Therapy
 order:
+inSeattle: true
 dropdown: true
 videos:
   - video-link: https://www.youtube.com/embed/BZQ3vtsG0no

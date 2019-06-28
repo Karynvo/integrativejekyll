@@ -4,6 +4,7 @@ title: Why We Are Different Naturopathic Dentist Seattle
 pagetitle: Why We Are Different
 order:
 dropdown: false
+inSeattle: false
 description: Our Seattle holistic dentist combines the standards of care with a natural, whole-body approach. Specialties include bio-compatibility and homeopathy.
 permalink: /about-us/seattle-holistic-dentist-why-different/
 ---

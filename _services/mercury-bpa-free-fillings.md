@@ -3,6 +3,7 @@ layout: service
 title: Mercury Free Dentist Seattle Fillings
 pagetitle: Mercury BPA-Free Fillings
 order:
+inSeattle: true
 dropdown: true
 description: As a mercury-free dentist in Seattle, we use porcelain and composite resins to protect your overall health while treating your smile.
 permalink: /services/mercury-free-dentist-seattle-fillings/
