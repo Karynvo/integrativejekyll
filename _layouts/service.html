@@ -1,8 +1,16 @@
 {% include header.html %}
-<div style="background-image: url(/assets/images/Banff2.jpg);height:400px;background-size:cover;"></div>
+<div style="background-image: url(/assets/images/Banff2.jpg);height:400px;background-size:cover;">
+<div class="container service-title-wrapper h-100">
+    <div class="row h-100 justify-content-center align-items-center">
+        <div class="text-center">
+            <h2 class="service-title">{{ page.pagetitle }}</h2>
+            <h3 style="font-family:'Playfair Display', serif;">in Seattle</h3>
+            <hr>
+        </div>
+    </div>
+</div>
+</div>
 <div class="container service-wrapper">
-    <h2 class="service-title">{{ page.pagetitle }}</h2>
-    <hr>
     <div class="service-body">
         {{ content }}
     </div>
