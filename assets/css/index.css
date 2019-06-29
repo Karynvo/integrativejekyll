@@ -181,6 +181,17 @@ a:hover {
     text-align: center;
 }
 
+.header-info-bar {
+    height: 100px;
+}
+
+.icon-logo {
+    width: 200px;
+    position: absolute;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
 @media (min-width: 700px){
     .logo {
         width: 600px;
