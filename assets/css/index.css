@@ -183,10 +183,10 @@ a:hover {
 
 .header-info-bar {
     height: 100px;
+    background-color: white;
 }
 
 .icon-logo {
-    width: 200px;
     position: absolute;
     margin-left: 50%;
     transform: translate(-50%);
@@ -642,4 +642,32 @@ label.error {
     color: white;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1.5px;
+}
+
+/* #stick {
+    overflow: hidden;
+} */
+
+.sticky {
+    position: fixed;
+    /* top: 100px; */
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 51px;
+}
+
+.skinny {
+    height: 55px;
+    width: auto!important;
+}
+
+.short {
+    height: 55px;
+}
+
+.sticky-nav {
+    z-index: 1000;
+    background-color:white;
 }
