@@ -2,15 +2,20 @@ jQuery(document).ready(function ($) {
 
   var stickyThreshold = document.getElementById("stick").offsetTop - document.getElementById("banner").offsetTop;
 
-  // When the user scrolls the page, execute myFunction 
-  window.onscroll = function() {myFunction(stickyThreshold)};
+  // When the user scrolls the page or resizes page, execute myFunction 
+  window.onload = function() {adjustNavbar()};
+  window.onscroll = function() {myFunction()};
+  window.onresize = function() {
+    adjustNavbar();
+    myFunction();
+  };
 
   // Get the navbar
   var navbar = document.getElementById("stick");
   var headerContact = document.getElementById("header-contact");
 
   // Add the sticky class to the navbar when you reach  its scroll position. Remove "sticky" when you leave  the scroll position
-  function myFunction() {
+  var myFunction = function() {
     if(window.pageYOffset > 0){
       document.getElementById("icon-logo-img").classList.add("skinny")
       headerContact.classList.add("short");
@@ -26,20 +31,24 @@ jQuery(document).ready(function ($) {
     var navOffset = headerContact.offsetHeight;
     var turnToSticky = sticky - bannerOffset;
 
-    console.log("window.pageYOffset: " + window.pageYOffset);
-    console.log("turnToSticky: " + turnToSticky);
-    console.log("navOffset: " + navOffset);
-    console.log("sticky: " + sticky);
-    console.log("bannerOffset: " + bannerOffset);
     if (window.pageYOffset > stickyThreshold){
       navbar.classList.add("sticky");
       navbar.style.top = navOffset + "px";
     } 
     else{
       navbar.classList.remove("sticky");
-      // navbar.style.top = "auto";
     } 
-  }
+  };
+
+  var adjustNavbar = function(){
+    var iconLogo = document.getElementById("icon-logo");
+    console.log(window.innerWidth);
+    if(window.innerWidth <= 500){
+      iconLogo.classList.remove("icon-logo");
+    }else{
+      iconLogo.classList.add("icon-logo");
+    }
+  };
 
   var $sub = $("#_subject");
 	$("#email").on("input", function() {
