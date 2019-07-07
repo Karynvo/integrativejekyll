@@ -671,3 +671,8 @@ label.error {
     z-index: 1000;
     background-color:white;
 }
+
+.sticky-header-info-bar {
+    position: fixed;
+    top: 0;
+}

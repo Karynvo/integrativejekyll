@@ -14,9 +14,11 @@ jQuery(document).ready(function ($) {
     if(window.pageYOffset > 0){
       document.getElementById("icon-logo-img").classList.add("skinny")
       headerContact.classList.add("short");
+      document.getElementById("header-contact-fixed").classList.add("sticky-header-info-bar");
     }else {
       document.getElementById("icon-logo-img").classList.remove("skinny")
       headerContact.classList.remove("short");
+      document.getElementById("header-contact-fixed").classList.remove("sticky-header-info-bar");
     }
 
     // Get the offset position of the navbar
