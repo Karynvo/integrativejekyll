@@ -29,68 +29,71 @@
             </div>
             <div class="icon-logo">
                 <a href="/">
-                    <img id="icon-logo-img" src="/assets/images/IDNewLogoFINAL.png" alt="Integrative Dentistry Logo" title="Integrative Dentistry Logo" style="width:200px;"/>
+                    <img id="icon-logo-img" src="/assets/images/IDNewLogoFINAL.png" alt="Integrative Dentistry Logo"
+                        title="Integrative Dentistry Logo" style="width:200px;" />
                 </a>
             </div>
             <div class="float-right upper-header">
-                    <div><a class="btn upper-header-tel" role="button" href="tel:(206) 367-6453">(206) 367-6453</a></div>
+                <div><a class="btn upper-header-tel" role="button" href="tel:(206) 367-6453">(206) 367-6453</a></div>
             </div>
         </div>
     </div>
     <div id="banner" class="header-logo">
         <div class="mx-auto logo-container">
-            <a href="/"><img class="logo" src="/assets/images/logo.png" alt="Integrative Dentistry Logo" title="Integrative Dentistry" /></a>
+            <a href="/"><img class="logo" src="/assets/images/logo.png" alt="Integrative Dentistry Logo"
+                    title="Integrative Dentistry" /></a>
         </div>
     </div>
     <div id="stick" class="sticky-nav">
-        <!-- <div style="width:100%;"> -->
-            <nav class="navbar navbar-expand-xl navbar-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                </button>
-                <div id="icon-logo">
-                    <a href="/">
-                        <img class="navbar-toggler" id="icon-logo-img" src="/assets/images/IDNewLogoFINAL.png" alt="Integrative Dentistry Logo" title="Integrative Dentistry Logo" style="height:55px;"/>
-                    </a>
-                </div>
-                <div><a class="btn book-button navbar-toggler" role="button" href="/request-an-appointment/">BOOK<br />APPOINTMENT</a></div>
+        <nav class="navbar navbar-expand-xl navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="icon-logo">
+                <a href="/">
+                    <img class="navbar-toggler" id="icon-logo-img" src="/assets/images/IDNewLogoFINAL.png"
+                        alt="Integrative Dentistry Logo" title="Integrative Dentistry Logo" style="height:55px;" />
+                </a>
+            </div>
+            <div><a class="btn book-button navbar-toggler" role="button"
+                    href="/request-an-appointment/">BOOK<br />APPOINTMENT</a></div>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <a href="#" class="navbar-close">x</a>
-                        <ul class="navbar-nav mx-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="/meet-the-doctors/">Meet Your Dentists</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Our Services
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    {% for serv in site.services %}
-                                    {% if serv.dropdown %}
-                                    <a class="dropdown-item" href={{serv.url}}>{{ serv.pagetitle }}</a>
-                                    {% endif %}
-                                    {% endfor %}
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/services/natural-dentistry-seattle">Natural and Biological Dentistry</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/blog">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/about-us/naturopathic-dentist-seattle-office">Our Office And
-                                    Technology</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/about-us/seattle-holistic-dentist-why-different">Why We Are Different</a>
-                            </li>
-                        </ul>
-                </div>
-            </nav>
-        <!-- </div> -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a href="#" class="navbar-close">x</a>
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/meet-the-doctors/">Meet Your Dentists</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Our Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            {% for serv in site.services %}
+                            {% if serv.dropdown %}
+                            <a class="dropdown-item" href={{serv.url}}>{{ serv.pagetitle }}</a>
+                            {% endif %}
+                            {% endfor %}
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/services/natural-dentistry-seattle">Biological
+                            Dentistry</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about-us/naturopathic-dentist-seattle-office">Our Office And
+                            Technology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about-us/seattle-holistic-dentist-why-different">Why We Are
+                            Different</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
