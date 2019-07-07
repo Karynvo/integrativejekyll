@@ -3,6 +3,11 @@
     max-height: 200px;
     overflow-x: hidden;
 } */
+@media (max-width:322px){
+    .navbar {
+        padding: 0;
+    }
+}
 @media (max-width:500px){
     .navbar {
         flex-wrap: nowrap;
@@ -408,6 +413,10 @@ a:hover {
     display: block;
 }
 
+.doctor-title {
+    text-align: center;
+}
+
 .who-title {
     margin: 0 0 5px;
 }
@@ -681,4 +690,8 @@ label.error {
 .sticky-nav {
     z-index: 1000;
     background-color:white;
+}
+
+#navbarSupportedContent {
+    z-index: 10000;
 }

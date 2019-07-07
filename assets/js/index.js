@@ -3,8 +3,14 @@ jQuery(document).ready(function ($) {
   var stickyThreshold = document.getElementById("stick").offsetTop - document.getElementById("banner").offsetTop;
 
   // When the user scrolls the page or resizes page, execute myFunction 
-  window.onload = function() {adjustNavbar()};
-  window.onscroll = function() {myFunction()};
+  window.onload = function() {
+    adjustNavbar();
+    myFunction();
+  };
+  window.onscroll = function() {
+    adjustNavbar();
+    myFunction()
+  };
   window.onresize = function() {
     adjustNavbar();
     myFunction();
@@ -42,10 +48,10 @@ jQuery(document).ready(function ($) {
 
   var adjustNavbar = function(){
     var iconLogo = document.getElementById("icon-logo");
-    if(window.innerWidth <= 500){
-      iconLogo.classList.remove("icon-logo");
-    }else{
+    if(window.innerWidth > 500){
       iconLogo.classList.add("icon-logo");
+    }else{
+      iconLogo.classList.remove("icon-logo");
     }
   };
 
