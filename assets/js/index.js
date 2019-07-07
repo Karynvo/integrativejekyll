@@ -42,7 +42,6 @@ jQuery(document).ready(function ($) {
 
   var adjustNavbar = function(){
     var iconLogo = document.getElementById("icon-logo");
-    console.log(window.innerWidth);
     if(window.innerWidth <= 500){
       iconLogo.classList.remove("icon-logo");
     }else{
