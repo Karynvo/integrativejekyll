@@ -7,8 +7,6 @@ jQuery(document).ready(function ($) {
       stickyThreshold = document.getElementById("banner").offsetHeight + document.getElementById("banner").offsetTop;
     else
       stickyThreshold = document.getElementById("stick").offsetTop - document.getElementById("banner").offsetTop;
-  
-    console.log("sticky threshold is " + stickyThreshold);
   }
   
   initializeThreshold();
