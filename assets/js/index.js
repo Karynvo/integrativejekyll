@@ -1,6 +1,18 @@
 jQuery(document).ready(function ($) {
-
+  
   var stickyThreshold = document.getElementById("stick").offsetTop - document.getElementById("banner").offsetTop;
+  
+  var initializeThreshold = function(){
+    if(window.innerWidth < 1199)
+      stickyThreshold = document.getElementById("banner").offsetHeight + document.getElementById("banner").offsetTop;
+    else
+      stickyThreshold = document.getElementById("stick").offsetTop - document.getElementById("banner").offsetTop;
+  
+    console.log("sticky threshold is " + stickyThreshold);
+  }
+  
+  initializeThreshold();
+
   // When the user scrolls the page or resizes page, execute myFunction 
   window.onload = function() {
     $("#cover").hide();
@@ -9,11 +21,12 @@ jQuery(document).ready(function ($) {
   };
   window.onscroll = function() {
     adjustNavbar();
-    myFunction()
+    myFunction();
   };
   window.onresize = function() {
     adjustNavbar();
     myFunction();
+    initializeThreshold();
   };
 
   // Get the navbar
@@ -22,14 +35,17 @@ jQuery(document).ready(function ($) {
 
   // Add the sticky class to the navbar when you reach  its scroll position. Remove "sticky" when you leave  the scroll position
   var myFunction = function() {
-    
+    console.log(window.pageYOffset);
     if (window.pageYOffset > 0){
       document.getElementById("icon-logo-img").classList.add("skinny")
       headerContact.classList.add("short");
+      // document.getElementById("icon-logo").style.top = 10 + "px";
     }else {
       document.getElementById("icon-logo-img").classList.remove("skinny")
       headerContact.classList.remove("short");
+      // document.getElementById("icon-logo").style.top = 0 + "px";
     }
+    // add padding to body for "integrative dentistry" banner
     document.body.style.paddingTop = document.getElementById("header-contact").offsetHeight + "px";
 
     if (window.pageYOffset > stickyThreshold){
@@ -50,6 +66,8 @@ jQuery(document).ready(function ($) {
     }
   };
 
+
+  /* contact form validation */
   var $sub = $("#_subject");
 	$("#email").on("input", function() {
 		$sub.val("Request Appointment (" + $(this).val() + ")");

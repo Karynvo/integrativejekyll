@@ -192,10 +192,10 @@
         margin-top: 15%;
     }
 
+}
     .sticky + .content {
         padding-top: 55px;
     }
-}
 
 .dropdown-menu {
     max-height: calc(100vh - 210px);
@@ -240,8 +240,8 @@ a:hover {
     position: absolute;
     margin-left: 50%;
     transform: translate(-50%);
-    /* top: 0px;
-    left: 0px; */
+    top: 0px;
+    left: 0px;
 }
 
 @media (min-width: 700px){
