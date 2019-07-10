@@ -193,7 +193,7 @@
     }
 
     .sticky + .content {
-        padding-top: 115px;
+        padding-top: 55px;
     }
 }
 
@@ -699,18 +699,10 @@ label.error {
     letter-spacing: 1.5px;
 }
 
-/* #stick {
-    overflow: hidden;
-} */
-
 .sticky {
     position: fixed;
     width: 100%;
 }
-
-/* .sticky + .content {
-    padding-top: 115px;
-} */
 
 .skinny {
     height: 55px;
@@ -729,3 +721,5 @@ label.error {
 #navbarSupportedContent {
     z-index: 10000;
 }
+
+#cover {position: fixed; height: 100%; width: 100%; top:0; left: 0; background: white; z-index:100000;}
