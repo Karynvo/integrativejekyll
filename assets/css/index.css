@@ -94,6 +94,7 @@
         width: 100%;
         padding: 20px;
         justify-content: space-between;
+        z-index: 1000;
     }
 
     .contact-footer a:hover {
@@ -190,6 +191,10 @@
     .text-jumbotron {
         margin-top: 15%;
     }
+
+    .sticky + .content {
+        padding-top: 115px;
+    }
 }
 
 .dropdown-menu {
@@ -235,6 +240,8 @@ a:hover {
     position: absolute;
     margin-left: 50%;
     transform: translate(-50%);
+    /* top: 0px;
+    left: 0px; */
 }
 
 @media (min-width: 700px){
@@ -698,13 +705,12 @@ label.error {
 
 .sticky {
     position: fixed;
-    /* top: 100px; */
     width: 100%;
 }
 
-.sticky + .content {
-    padding-top: 51px;
-}
+/* .sticky + .content {
+    padding-top: 115px;
+} */
 
 .skinny {
     height: 55px;

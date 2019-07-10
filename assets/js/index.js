@@ -1,7 +1,7 @@
 jQuery(document).ready(function ($) {
 
   var stickyThreshold = document.getElementById("stick").offsetTop - document.getElementById("banner").offsetTop;
-
+  console.log("stick: " + stickyThreshold);
   // When the user scrolls the page or resizes page, execute myFunction 
   window.onload = function() {
     adjustNavbar();
@@ -22,26 +22,21 @@ jQuery(document).ready(function ($) {
 
   // Add the sticky class to the navbar when you reach  its scroll position. Remove "sticky" when you leave  the scroll position
   var myFunction = function() {
-    if(window.pageYOffset > 0){
+    
+    if (window.pageYOffset > stickyThreshold){
       document.getElementById("icon-logo-img").classList.add("skinny")
       headerContact.classList.add("short");
-    }else {
-      document.getElementById("icon-logo-img").classList.remove("skinny")
-      headerContact.classList.remove("short");
-    }
-
-    // Get the offset position of the navbar
-    var sticky = navbar.offsetTop;
-    var bannerOffset = document.getElementById("banner").offsetTop;
-    var nav = document.getElementById("banner").offsetTop;
-    var navOffset = headerContact.offsetHeight;
-    var turnToSticky = sticky - bannerOffset;
-
-    if (window.pageYOffset > stickyThreshold){
+      // document.getElementById("icon-logo").style.marginTop = "10px";
+      headerContact.classList.add("sticky");
+      headerContact.style.top = "0px";
+      navbar.style.top = headerContact.offsetHeight + "px";
       navbar.classList.add("sticky");
-      navbar.style.top = navOffset + "px";
     } 
     else{
+      document.getElementById("icon-logo-img").classList.remove("skinny")
+      headerContact.classList.remove("short");
+      // document.getElementById("icon-logo").style.marginTop = "0px";
+      headerContact.classList.remove("sticky");
       navbar.classList.remove("sticky");
     } 
   };
