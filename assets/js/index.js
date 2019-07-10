@@ -1,7 +1,6 @@
 jQuery(document).ready(function ($) {
 
   var stickyThreshold = document.getElementById("stick").offsetTop - document.getElementById("banner").offsetTop;
-  console.log("stick: " + stickyThreshold);
   // When the user scrolls the page or resizes page, execute myFunction 
   window.onload = function() {
     adjustNavbar();
