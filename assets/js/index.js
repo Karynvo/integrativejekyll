@@ -12,10 +12,10 @@ jQuery(document).ready(function ($) {
   initializeThreshold();
 
   // When the user scrolls the page or resizes page, execute myFunction 
-  window.onload = function() {
+  window.addEventListener('load', function() {
     $("#cover").hide();
     myFunction();
-  };
+  });
   window.onscroll = function() {
     myFunction();
   };
