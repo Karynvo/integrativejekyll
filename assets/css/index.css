@@ -322,6 +322,13 @@ a:hover {
 .welcome-wrapper {
     margin-bottom: 40px;
     background-color: #f4f4f4;
+    text-align: center;
+}
+
+.welcome-group {
+    padding-top: 100px;
+    margin: 0px auto;
+    max-width: 800px;
 }
 
 .welcome {
@@ -329,7 +336,7 @@ a:hover {
     margin: 0 auto;
     overflow: hidden;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 50px;
     padding-bottom: 80px;
 }
 
@@ -365,7 +372,7 @@ a:hover {
 }
 
 .meet-img--image {
-    border-radius: 50%;
+    /* border-radius: 50%; */
     height:130px;
 }
 
