@@ -1,69 +1,19 @@
 jQuery(document).ready(function ($) {
-  
-  var stickyThreshold = document.getElementById("stick").offsetTop - document.getElementById("banner").offsetTop;
-  
-  var initializeThreshold = function(){
-    if(window.innerWidth < 1199)
-      stickyThreshold = document.getElementById("banner").offsetHeight + document.getElementById("banner").offsetTop;
-    else
-      stickyThreshold = document.getElementById("stick").offsetTop - document.getElementById("banner").offsetTop;
-  }
-  
-  initializeThreshold();
-
-  // When the user scrolls the page or resizes page, execute myFunction 
-  window.addEventListener('load', function() {
-    $("#cover").hide();
-    myFunction();
-  });
-  window.onscroll = function() {
-    myFunction();
-  };
-  window.onresize = function() {
-    myFunction();
-    initializeThreshold();
-  };
-
-  // Get the navbar
-  var navbar = document.getElementById("stick");
-  var headerContact = document.getElementById("header-contact");
-
-  // Add the sticky class to the navbar when you reach  its scroll position. Remove "sticky" when you leave  the scroll position
-  var myFunction = function() {
-    if (window.pageYOffset > 0){
-      document.getElementById("icon-logo-img").classList.add("skinny")
-      headerContact.classList.add("short");
-    }else {
-      document.getElementById("icon-logo-img").classList.remove("skinny")
-      headerContact.classList.remove("short");
-    }
-    // add padding to body for "integrative dentistry" banner
-    document.body.style.paddingTop = document.getElementById("header-contact").offsetHeight + "px";
-
-    if (window.pageYOffset > stickyThreshold){
-      navbar.style.top = headerContact.offsetHeight + "px";
-      navbar.classList.add("sticky");
-    } 
-    else{
-      navbar.classList.remove("sticky");
-    } 
-  };
-
 
   /* contact form validation */
   var $sub = $("#_subject");
-	$("#email").on("input", function() {
-		$sub.val("Request Appointment (" + $(this).val() + ")");
-	});
+  $("#email").on("input", function () {
+    $sub.val("Request Appointment (" + $(this).val() + ")");
+  });
 
-  $('.navbar-close').on('click',function() {
+  $('.navbar-close').on('click', function () {
     $('#navbarSupportedContent').removeClass('show');
   });
 
-  $( ".about-wrapper div.doctor-wrapper:even").addClass('flex-lg-row');
-  $( ".about-wrapper div.doctor-wrapper:odd").addClass('flex-lg-row-reverse');
+  $(".about-wrapper div.doctor-wrapper:even").addClass('flex-lg-row');
+  $(".about-wrapper div.doctor-wrapper:odd").addClass('flex-lg-row-reverse');
 
-  $('.contact-footer-info').on('click',function() {
+  $('.contact-footer-info').on('click', function () {
     $('.contact-footer').toggleClass('bar-active');
   });
 
@@ -83,15 +33,70 @@ jQuery(document).ready(function ($) {
       email: "Please enter your email address",
       options: "Please select an option"
     },
-    submitHandler: function(form){
+    submitHandler: function (form) {
       form.submit();
     },
-    errorPlacement: function(error, element){
-      if(element.prop('name') == 'options'){
+    errorPlacement: function (error, element) {
+      if (element.prop('name') == 'options') {
         error.appendTo('.book-radio-group');
-      }else{
+      } else {
         error.insertAfter(element);
       }
     }
   })
+});
+
+// Cross-browser implementation of element.addEventListener()
+function listen(evnt, elem, func) {
+  if (elem.addEventListener)  // W3C DOM
+    elem.addEventListener(evnt, func, false);
+  else if (elem.attachEvent) { // IE DOM
+    elem.attachEvent("on" + evnt, func);
+  }
+}
+
+listen("load", window, function () {
+
+  var stickyThreshold = document.getElementById("stick").offsetTop - document.getElementById("banner").offsetTop;
+
+  var initializeThreshold = function () {
+    if (window.innerWidth < 1199)
+      stickyThreshold = document.getElementById("banner").offsetHeight + document.getElementById("banner").offsetTop;
+    else
+      stickyThreshold = document.getElementById("stick").offsetTop - document.getElementById("banner").offsetTop;
+  }
+
+  initializeThreshold();
+
+  // Get the navbar
+  var navbar = document.getElementById("stick");
+  var headerContact = document.getElementById("header-contact");
+
+  // Add the sticky class to the navbar when you reach  its scroll position. Remove "sticky" when you leave  the scroll position
+  var myFunction = function () {
+    if (window.pageYOffset > 0) {
+      document.getElementById("icon-logo-img").classList.add("skinny")
+      headerContact.classList.add("short");
+    } else {
+      document.getElementById("icon-logo-img").classList.remove("skinny")
+      headerContact.classList.remove("short");
+    }
+    // add padding to body for "integrative dentistry" banner
+    document.body.style.paddingTop = document.getElementById("header-contact").offsetHeight + "px";
+
+    if (window.pageYOffset > stickyThreshold) {
+      navbar.style.top = headerContact.offsetHeight + "px";
+      navbar.classList.add("sticky");
+    }
+    else {
+      navbar.classList.remove("sticky");
+    }
+  };
+
+  $("#cover").remove();
+  myFunction();
+
+  listen("scroll", window, function () { myFunction(); });
+  listen("resize", window, function () { myFunction(); });
+  listen("resize", window, function () { initializeThreshold(); });
 });
