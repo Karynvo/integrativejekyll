@@ -2,7 +2,7 @@
 firstname: Christine
 lastname: Cao
 order: 4
-image: ChristineHeadshotCircle.png
+image: CaoCircle.png
 frontpage: true
 ---
 

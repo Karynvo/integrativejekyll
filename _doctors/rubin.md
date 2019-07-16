@@ -2,7 +2,7 @@
 firstname: Paul
 lastname: Rubin
 order: 3
-image: PaulHeadshotCircle.png
+image: RubinCircle.png
 frontpage: true
 ---
 

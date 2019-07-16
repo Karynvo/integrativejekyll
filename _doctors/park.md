@@ -2,7 +2,7 @@
 firstname: Hosan
 lastname: Park
 order: 6
-image: HosanHeadshotCircle.png
+image: ParkCircle.png
 frontpage: false
 ---
 

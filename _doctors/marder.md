@@ -2,7 +2,7 @@
 firstname: Mitch
 lastname: Marder
 order: 2
-image: MarderHeadshotCircle.png
+image: MarderCircle.png
 frontpage: true
 ---
 

@@ -2,7 +2,7 @@
 firstname: Gabriel
 lastname: Malouf
 order: 5
-image: GabeHeadshotCircle.png
+image: MaloufCircle.png
 frontpage: true
 ---
 

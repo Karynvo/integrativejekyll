@@ -1,6 +1,6 @@
 @media (min-width: 500px) { 
     .text-jumbotron {
-        margin-top: 32%;
+        margin-top: 16%;
     }
 
     .icon-logo-center {
@@ -14,19 +14,19 @@
 
 @media (min-width: 576px) { 
     .text-jumbotron {
-        margin-top: 30%;
+        margin-top: 16%;
     }
 }
 
 @media (min-width: 768px) {
     .text-jumbotron {
-        margin-top: 23%;
+        margin-top: 13%;
     }
 }
 
 @media (min-width: 992px) {
     .text-jumbotron {
-        margin-top: 18%;
+        margin-top: 11%;
     }
 }
 
@@ -35,7 +35,7 @@
         padding: 0;
     }
     .text-jumbotron {
-        margin-top: 50%!important;
+        margin-top: 27%!important;
     }
 }
 @media (max-width:500px){
@@ -43,7 +43,7 @@
         flex-wrap: nowrap;
     }
     .text-jumbotron {
-        margin-top: 45%;
+        margin-top: 24%;
     }
 }
 @media (max-width: 991.98px){
@@ -197,7 +197,7 @@
     }
 
     .text-jumbotron {
-        margin-top: 15%;
+        margin-top: 9%;
     }
 
 }

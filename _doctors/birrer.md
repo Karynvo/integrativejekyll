@@ -2,7 +2,7 @@
 firstname: Bramley
 lastname: Birrer
 order: 1
-image: BramleyIDHeadshotCircle.png
+image: BramleyCircle.png
 frontpage: true
 ---
 
