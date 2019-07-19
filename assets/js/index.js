@@ -17,7 +17,7 @@ jQuery(document).ready(function ($) {
     $('.contact-footer').toggleClass('bar-active');
   });
 
-  $("form[name='book'").validate({
+  $("form[name='book']").validate({
     rules: {
       name: "required",
       phone: "required",
@@ -55,23 +55,27 @@ function listen(evnt, elem, func) {
   }
 }
 
+// added because a generate_204 error occurs in the network; not sure why it occurs
+// but it prevents cover from being removed
+listen("error", window, function(){ $("#cover").remove(); });
+
 listen("load", window, function () {
-
+  
   var stickyThreshold = document.getElementById("stick").offsetTop - document.getElementById("banner").offsetTop;
-
+  
   var initializeThreshold = function () {
     if (window.innerWidth < 1199)
-      stickyThreshold = document.getElementById("banner").offsetHeight + document.getElementById("banner").offsetTop;
+    stickyThreshold = document.getElementById("banner").offsetHeight + document.getElementById("banner").offsetTop;
     else
-      stickyThreshold = document.getElementById("stick").offsetTop - document.getElementById("banner").offsetTop;
+    stickyThreshold = document.getElementById("stick").offsetTop - document.getElementById("banner").offsetTop;
   }
-
+  
   initializeThreshold();
-
+  
   // Get the navbar
   var navbar = document.getElementById("stick");
   var headerContact = document.getElementById("header-contact");
-
+  
   // Add the sticky class to the navbar when you reach  its scroll position. Remove "sticky" when you leave  the scroll position
   var myFunction = function () {
     if (window.pageYOffset > 0) {
@@ -83,7 +87,7 @@ listen("load", window, function () {
     }
     // add padding to body for "integrative dentistry" banner
     document.body.style.paddingTop = document.getElementById("header-contact").offsetHeight + "px";
-
+    
     if (window.pageYOffset > stickyThreshold) {
       navbar.style.top = headerContact.offsetHeight + "px";
       navbar.classList.add("sticky");
@@ -92,10 +96,10 @@ listen("load", window, function () {
       navbar.classList.remove("sticky");
     }
   };
-
+  
   $("#cover").remove();
   myFunction();
-
+  
   listen("scroll", window, function () { myFunction(); });
   listen("resize", window, function () { myFunction(); });
   listen("resize", window, function () { initializeThreshold(); });
