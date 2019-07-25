@@ -16,8 +16,8 @@
 title: Integrative Dentistry
 email: info@integrativedentistry.com
 description: We practice mercury-safe, biological holistic dentistry with a whole-body approach, providing various cosmetic dental treatments for the entire family in Seattle WA and its surrounding areas. Call @ 206367-6453!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://mitchmarderdds.com" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/images/IDNewLogoFINAL.png
 webmaster_verifications:
   google: zAVjXEpG10ULRWmFeJozeoudsl-Rwz2yT46zEr-MWsg
