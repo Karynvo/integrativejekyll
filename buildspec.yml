@@ -3,8 +3,8 @@ version: 0.1
 phases:
   install:
     runtime-versions:
-      - ruby: 2.6
-      - nodejs: 10
+      ruby: 2.6
+      nodejs: 10
   build:
     commands:
       - bundle exec jekyll build
