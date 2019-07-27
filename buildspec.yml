@@ -5,8 +5,11 @@ phases:
     runtime-versions:
       ruby: 2.6
       nodejs: 10
+    commands:
+      - gem install bundler
+      - bundle install
   build:
     commands:
-      - bundle exec jekyll build
+      - JEKYLL_ENV=production bundle exec jekyll build
       - aws s3 sync --delete _site/ s3://www.mitchmarderdds.com
       - aws cloudfront create-invalidation --distribution-id E1EXFO5KCKC80R --paths '/*'
