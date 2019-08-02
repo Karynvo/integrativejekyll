@@ -61,16 +61,7 @@ listen("error", window, function(){ $("#cover").remove(); });
 
 listen("load", window, function () {
   
-  var stickyThreshold = document.getElementById("stick").offsetTop - document.getElementById("banner").offsetTop;
-  
-  var initializeThreshold = function () {
-    if (window.innerWidth < 1199)
-    stickyThreshold = document.getElementById("banner").offsetHeight + document.getElementById("banner").offsetTop;
-    else
-    stickyThreshold = document.getElementById("stick").offsetTop - document.getElementById("banner").offsetTop;
-  }
-  
-  initializeThreshold();
+  var stickyThreshold = document.getElementById("stick").offsetTop - document.getElementById("header-contact").offsetTop;
   
   // Get the navbar
   var navbar = document.getElementById("stick");
@@ -79,22 +70,24 @@ listen("load", window, function () {
   // Add the sticky class to the navbar when you reach  its scroll position. Remove "sticky" when you leave  the scroll position
   var myFunction = function () {
     if (window.pageYOffset > 0) {
-      document.getElementById("icon-logo-img").classList.add("skinny")
+      document.getElementById("icon-logo").classList.remove("hide");
+      document.getElementById("banner").classList.add("hide");
       headerContact.classList.add("short");
+      navbar.style.top = headerContact.offsetHeight + "px";
+      navbar.classList.add("sticky");
     } else {
-      document.getElementById("icon-logo-img").classList.remove("skinny")
+      document.getElementById("icon-logo").classList.add("hide");
+      document.getElementById("banner").classList.remove("hide");
       headerContact.classList.remove("short");
+      navbar.classList.remove("sticky");
     }
     // add padding to body for "integrative dentistry" banner
     document.body.style.paddingTop = document.getElementById("header-contact").offsetHeight + "px";
     
-    if (window.pageYOffset > stickyThreshold) {
-      navbar.style.top = headerContact.offsetHeight + "px";
-      navbar.classList.add("sticky");
-    }
-    else {
-      navbar.classList.remove("sticky");
-    }
+    // if (window.pageYOffset > stickyThreshold) {
+    // }
+    // else {
+    // }
   };
   
   $("#cover").remove();
@@ -102,5 +95,4 @@ listen("load", window, function () {
   
   listen("scroll", window, function () { myFunction(); });
   listen("resize", window, function () { myFunction(); });
-  listen("resize", window, function () { initializeThreshold(); });
 });
