@@ -60,9 +60,6 @@ function listen(evnt, elem, func) {
 listen("error", window, function(){ $("#cover").remove(); });
 
 listen("load", window, function () {
-  
-  var stickyThreshold = document.getElementById("stick").offsetTop - document.getElementById("header-contact").offsetTop;
-  
   // Get the navbar
   var navbar = document.getElementById("stick");
   var headerContact = document.getElementById("header-contact");
@@ -83,11 +80,6 @@ listen("load", window, function () {
     }
     // add padding to body for "integrative dentistry" banner
     document.body.style.paddingTop = document.getElementById("header-contact").offsetHeight + "px";
-    
-    // if (window.pageYOffset > stickyThreshold) {
-    // }
-    // else {
-    // }
   };
   
   $("#cover").remove();
@@ -95,4 +87,16 @@ listen("load", window, function () {
   
   listen("scroll", window, function () { myFunction(); });
   listen("resize", window, function () { myFunction(); });
+
+  var newPhoto = true;
+  $('#togglePhoto').click(function(){
+    if(newPhoto){
+      $('#jumbotron').css('background-image', 'url(assets/images/Banff1.jpg)');
+      $('#jumbotron-text-wrapper').removeClass('align-items-center');
+    }else{
+      $('#jumbotron').css('background-image', 'url(assets/images/HomepagePicCrop.jpg)');
+      $('#jumbotron-text-wrapper').addClass('align-items-center');
+    }
+    newPhoto = !newPhoto;
+  })
 });
