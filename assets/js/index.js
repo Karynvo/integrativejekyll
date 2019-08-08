@@ -64,12 +64,7 @@ listen("load", window, function () {
   var stickyThreshold = document.getElementById("stick").offsetTop + document.getElementById("banner").offsetTop;
   
   var initializeThreshold = function () {
-    console.log("height: " + document.getElementById("banner").offsetHeight )
-    console.log("top: " + document.getElementById("banner").offsetTop )
-    // if (window.innerWidth < 1199)
     stickyThreshold = document.getElementById("banner").offsetHeight + document.getElementById("banner").offsetTop;
-  //   else
-  //   stickyThreshold = document.getElementById("stick").offsetTop - document.getElementById("banner").offsetTop;
   }
   
   initializeThreshold();
