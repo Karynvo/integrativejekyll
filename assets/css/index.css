@@ -88,9 +88,9 @@
         margin-top: 30px;
     }
 
-    .book-button {
+    /* .book-button {
         padding: 4px 12px!important;
-    }
+    } */
 
     .contact-footer {
         display: flex;
@@ -233,6 +233,10 @@ a:hover {
 
 .logo-container {
     text-align: center;
+}
+
+.logo {
+    width: 80%;
 }
 
 .banner-wrapper {
@@ -545,6 +549,10 @@ a:hover {
     border-radius: .2rem;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 4px;
+}
+
+.book-button {
+    padding: 4px 12px!important;
 }
 
 .meet-button,
