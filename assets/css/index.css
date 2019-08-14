@@ -88,9 +88,9 @@
         margin-top: 30px;
     }
 
-    .book-button {
+    /* .book-button {
         padding: 4px 12px!important;
-    }
+    } */
 
     .contact-footer {
         display: flex;
@@ -231,30 +231,35 @@ a:hover {
     color: gray;
 }
 
-.logo {
-    width: 80%;
-}
-
 .logo-container {
     text-align: center;
 }
 
-.header-info-bar {
-    height: 100px;
-    background-color: white;
+.logo {
+    width: 80%;
 }
 
-/* .icon-logo-center {
+.banner-wrapper {
+    top: 0;
+    left: 0;
     position: absolute;
     margin-left: 50%;
     transform: translate(-50%);
-    top: 0px;
-    left: 0px;
-} */
+    margin-top: 15px;
+}
+
+.header-info-bar {
+    height: 90px;
+    background-color: white;
+}
+
+.icon-logo-center {
+    margin-top: 10px;
+}
 
 @media (min-width: 700px){
     .logo {
-        width: 600px;
+        width: 550px;
     }
 
     .book-wrapper {
@@ -546,6 +551,10 @@ a:hover {
     letter-spacing: 4px;
 }
 
+.book-button {
+    padding: 4px 12px!important;
+}
+
 .meet-button,
 .who-button {
     margin-top: 30px;
@@ -662,6 +671,7 @@ a:hover {
     width: 100%;
 }
 
+.hide,
 label.error {
     display: none;
 }
