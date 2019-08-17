@@ -10,6 +10,10 @@ jQuery(document).ready(function ($) {
     $('#navbarSupportedContent').removeClass('show');
   });
 
+  $('.navbar-close-location').on('click', function () {
+    $('#navbarSupportedContent').removeClass('show');
+  });
+
   $(".about-wrapper div.doctor-wrapper:even").addClass('flex-lg-row');
   $(".about-wrapper div.doctor-wrapper:odd").addClass('flex-lg-row-reverse');
 

@@ -136,7 +136,7 @@
         height: 39px;
         border-radius: 50%;
         position: absolute;
-        right: 30px;
+        left: 200px;
         bottom: 18px;
         background-color: white;
     }
@@ -147,7 +147,7 @@
         padding: 0;
         list-style: none;
         width: 82px;
-        right: 10px;
+        left: 180px;
         bottom: 50px;
         border-radius: 15px;
         line-height: 11px;
