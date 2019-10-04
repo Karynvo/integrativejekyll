@@ -76,7 +76,7 @@ Custom styling is lumped into one CSS file called index.css. There is some inlin
 
 [Bootstrap 4.3](https://getbootstrap.com/docs/4.3/getting-started/introduction/) is used for the CSS library
 
-### Third-Party Software
+## Third-Party Software
 
 - [Formspree.io](https://formspree.io/) for the contact form
 - [Podium](https://www.podium.com/) for the contact button
