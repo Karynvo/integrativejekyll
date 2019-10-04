@@ -78,5 +78,5 @@ Custom styling is lumped into one CSS file called index.css. There is some inlin
 
 ### Third-Party Software
 
-- Formspree.io for the contact form
-- Podium for the contact button
+- [Formspree.io](https://formspree.io/) for the contact form
+- [Podium](https://www.podium.com/) for the contact button
