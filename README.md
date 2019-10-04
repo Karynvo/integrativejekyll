@@ -29,7 +29,7 @@ This should install all dependencies defined in the Gemfile
 
 To run the site locally on localhost:4000,
 ```bash
-jekyll serve
+bundle exec jekyll serve
 ```
 
 ## Deployment
