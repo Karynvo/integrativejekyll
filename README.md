@@ -73,3 +73,5 @@ Mix of liquid and HTML in HTML files that define the layout of various parts of 
 
 ## Assets
 Custom styling is lumped into one CSS file called index.css. There is some inline styling that exists throughout the site (sorry!). All JavaScript in lumped into one JS file called index.js. Both of these are included on every page in _layout/default.html
+
+[Bootstrap 4.3](https://getbootstrap.com/docs/4.3/getting-started/introduction/) is used for the CSS library
