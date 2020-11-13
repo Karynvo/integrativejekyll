@@ -22,15 +22,17 @@ In a word, we **use energized oxygen to cure infections.** And the results are i
 > Ozone therapy is a powerful treatment modality offering considerable benefits applicable to a wide range of conditions with the ability to penetrate intraoral hard and soft tissues. A simple gaseous molecule like ozone (produced naturally in vivo) can have superior therapeutic effects over ordinary drugs. Twenty years of research concerning the antimicrobial efficacy of O3 has conclusively shown the ability of this agent in both gaseous and aqueous solution to exterminate a wide range of bacteria, spores and viruses. Ozone deserves a place in the management of health and disease. <sup>2</sup>
 
 <br/>
+
 __References__:
 
-Bocci, Velio. [Ozone: A New Medical Drug](https://drive.google.com/file/d/1soY7_8R6XYzqF2Nj902a0a3xhbubppUk/view?usp=sharing). Dordrecht: Springer, 2005.
+1. Bocci, Velio. [Ozone: A New Medical Drug](https://drive.google.com/file/d/1soY7_8R6XYzqF2Nj902a0a3xhbubppUk/view?usp=sharing). Dordrecht: Springer, 2005.
 
-<sup>2</sup> Lynch, Edward. [Ozone: The Revolution in Dentistry](https://drive.google.com/file/d/1SXvpiP2NCGiFvXbbOdNAFTGq9ErcyeZU/view). London: Quintessence, 2004.
+2. Lynch, Edward. [Ozone: The Revolution in Dentistry](https://drive.google.com/file/d/1SXvpiP2NCGiFvXbbOdNAFTGq9ErcyeZU/view). London: Quintessence, 2004.
 
-Yuhas, Daisy. [“Storm Scents.”](https://www.scientificamerican.com/article/storm-scents-smell-rain/) Scientific American, July 18, 2012.
+3. Yuhas, Daisy. [“Storm Scents.”](https://www.scientificamerican.com/article/storm-scents-smell-rain/) Scientific American, July 18, 2012.
 
 <br/>
+
 __Links__:
 
 [US Food & Drug Administration Ozone Regulations](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/cfrsearch.cfm?fr=801.415)
@@ -44,11 +46,13 @@ __Links__:
 [https://www.ozonegenerator.com/](https://www.ozonegenerator.com/)
 
 <br/>
+
 __Videos__:
 
 {% include videos.html %}
 
 <br/>
+
 __Downloads__:
 
 [Phil Mollica’s Ozone Guide](https://drive.google.com/file/d/10yFlJkaOjfENpFbdxePOC1heMLmrOUuW/view)

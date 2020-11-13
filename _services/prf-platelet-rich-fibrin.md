@@ -25,11 +25,13 @@ In a word, we **use your own blood components to heal you**. And the results are
 > Peripheral blood is collected from the patient in specific tubes and immediately processed by one step centrifugation. This process activates the coagulation cascade and leads to three-dimensional fibrin clot formation. After centrifugation, the blood is separated into a red cell fraction and the PRF clot, which has to be gently isolated. The clot body as a fibrin network is enriched with platelets and concentrated with a variety of leukocytes, which physiologically exist within the peripheral blood.<sup>1</sup>
 
 <br/>
+
 __References__:
 
-<sup>1</sup>Miron and Choukroun. [Platelet Rich Fibrin in Regenerative Dentistry](https://www.amazon.com/Platelet-Rich-Fibrin-Regenerative-Dentistry/dp/1119406811). Hoboken: Wiley, 2017.
+1. Miron and Choukroun. [Platelet Rich Fibrin in Regenerative Dentistry](https://www.amazon.com/Platelet-Rich-Fibrin-Regenerative-Dentistry/dp/1119406811). Hoboken: Wiley, 2017.
 
 <br/>
+
 __Links__:
 
 [https://www.prfedu.com/](https://www.prfedu.com/)
@@ -37,11 +39,13 @@ __Links__:
 [https://en.wikipedia.org/wiki/Platelet-rich_fibrin](https://en.wikipedia.org/wiki/Platelet-rich_fibrin)
 
 <br/>
+
 __Videos__:
 
 {% include videos.html %}
 
 <br/>
+
 __Downloads__:
 
 [Platelet-rich fibrin application in dentistry: a literature review](https://drive.google.com/file/d/17QI_cLP6iUEbC8c1fTW9La_qWO34uScP/view?usp=sharing)

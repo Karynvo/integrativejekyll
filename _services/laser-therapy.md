@@ -33,10 +33,17 @@ Coluzzi and Parker. [Lasers in Dentistry - Current Concepts](https://drive.googl
 __Links__:
 
 ChattanoogaⓇ [Vectra Genisys Transport Laser](https://www.djoglobal.com/products/chattanooga/vectra-genisys-transport-laser)Ⓡ
-Lutronic™ [Denta 2](https://www.xrayheads.com/denta-2)™ [CO<sub>2</sub> Laser](https://www.xrayheads.com/co2-dental-lasers)
-[https://en.m.wikipedia.org/wiki/Dental_laser](https://en.m.wikipedia.org/wiki/Dental_laser)
+
+Lutronic™ [Denta 2](https://www.xrayheads.com/denta-2)™ 
+
+[CO<sub>2</sub> Laser](https://www.xrayheads.com/co2-dental-lasers)
+
+[https://en.wikipedia.org/wiki/Dental_laser](https://en.wikipedia.org/wiki/Dental_laser)
+
 [https://www.laserdentistry.org/](https://www.laserdentistry.org/)
+
 [https://theiald.com/](https://theiald.com/)
+
 [https://www.naalt.org/](https://www.naalt.org/)
 
 <br/>
