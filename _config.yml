@@ -57,6 +57,7 @@ pagination:
   enabled: true
   collection: 'blog'
   per_page: 10
+  sort_reverse: true
   permalink: 'page/:num/'
 
 # Exclude from processing.
