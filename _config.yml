@@ -37,6 +37,7 @@ plugins:
 # Collections
 collections:
   doctors:
+  hygienists:
   reviews:
   services:
     output: true

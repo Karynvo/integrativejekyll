@@ -1,0 +1,12 @@
+---
+layout: default
+title: Meet Your Hygienists
+permalink: /meet-the-hygienists/
+---
+
+<div class="container about-wrapper">
+    {% assign sorted_hygienists = site.hygienists | sort:"order" %}
+    {% for hygienist in sorted_hygienists %}
+        {% include hygienist.html %}
+    {% endfor %}
+</div>
