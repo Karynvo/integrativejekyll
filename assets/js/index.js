@@ -3,7 +3,7 @@ jQuery(document).ready(function ($) {
   /* contact form validation */
   var $sub = $("#_subject");
   $("#email").on("input", function () {
-    $sub.val("Request Appointment (" + $(this).val() + ")");
+    $sub.val("Request Call (" + $(this).val() + ")");
   });
 
   $('.navbar-close').on('click', function () {
