@@ -79,7 +79,7 @@ listen("load", window, function () {
 
   // Add the sticky class to the navbar when you reach  its scroll position. Remove "sticky" when you leave  the scroll position
   var myFunction = function () {
-    if(window.innerWidth >= 1199){
+    if(window.innerWidth > 1199){
       document.getElementById("banner").classList.add("hide");
     if (window.pageYOffset > 0) {
       document.getElementById("icon-logo").classList.remove("hide");
