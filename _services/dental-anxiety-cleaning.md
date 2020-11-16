@@ -3,7 +3,7 @@ layout: service
 title: Dental Anxiety Cleaning
 pagetitle: Dental Anxiety Cleaning
 order:
-inSeattle: true
+inSeattle: false
 dropdown: true
 videos:
   - video-link: https://www.youtube.com/embed/pAclBdj20ZU
