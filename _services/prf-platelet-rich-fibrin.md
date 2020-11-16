@@ -22,7 +22,7 @@ On the day of your surgery, pure blood drawn from your arm is lightly centrifuge
 In a word, we **use your own blood components to heal you**. And the results are phenomenal.
 
 
-> Peripheral blood is collected from the patient in specific tubes and immediately processed by one step centrifugation. This process activates the coagulation cascade and leads to three-dimensional fibrin clot formation. After centrifugation, the blood is separated into a red cell fraction and the PRF clot, which has to be gently isolated. The clot body as a fibrin network is enriched with platelets and concentrated with a variety of leukocytes, which physiologically exist within the peripheral blood.<sup>1</sup>
+<blockquote class="p-3 service-blockquote"> Peripheral blood is collected from the patient in specific tubes and immediately processed by one step centrifugation. This process activates the coagulation cascade and leads to three-dimensional fibrin clot formation. After centrifugation, the blood is separated into a red cell fraction and the PRF clot, which has to be gently isolated. The clot body as a fibrin network is enriched with platelets and concentrated with a variety of leukocytes, which physiologically exist within the peripheral blood.<sup>1</sup></blockquote>
 
 <br/>
 

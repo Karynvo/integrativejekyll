@@ -601,6 +601,12 @@ a:hover {
     text-align: center;
 }
 
+.service-blockquote {
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
 .post-list-wrapper hr, 
 .service-title-wrapper hr {
     width: 10%;

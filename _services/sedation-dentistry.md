@@ -20,7 +20,7 @@ Together we determine a sedation strategy to achieve optimum comfort during the 
 In short, you get daydream results without a nightmare experience and it’s amazing.
 
 
-> The main objective… is to identify the safest and most effective sedative drugs so as to ensure successful sedation with as few complications as possible. <sup>1</sup>
+<blockquote class="p-3 service-blockquote">The main objective… is to identify the safest and most effective sedative drugs so as to ensure successful sedation with as few complications as possible. <sup>1</sup></blockquote>
 
 <br/>
 

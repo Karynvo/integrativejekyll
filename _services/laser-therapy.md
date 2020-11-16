@@ -22,7 +22,7 @@ Noninvasive therapeutic lasers will reverse gum infections, halt gum disease, an
 In a word, **we use light energy to boost natural healing and disrupt biofilms**. And the results are amazing.
 
 
-> In view of the growing problem of bacterial resistance to conventional antimicrobials, the use of an alternative bactericidal approach to which bacteria are not likely to develop resistance would be valuable. The current treatment for dental plaque-related diseases in the oral cavity involves, first, the mechanical removal of all accessible contamination, and, second, the use of topical and/or systemic antimicrobial medications. Laser therapy may be a suitable antimicrobial approach that can overcome biofilm and antimicrobial-related resistance. <sup>3</sup>
+<blockquote class="p-3 service-blockquote">In view of the growing problem of bacterial resistance to conventional antimicrobials, the use of an alternative bactericidal approach to which bacteria are not likely to develop resistance would be valuable. The current treatment for dental plaque-related diseases in the oral cavity involves, first, the mechanical removal of all accessible contamination, and, second, the use of topical and/or systemic antimicrobial medications. Laser therapy may be a suitable antimicrobial approach that can overcome biofilm and antimicrobial-related resistance. <sup>3</sup></blockquote>
 
 <br/>
 __References__:

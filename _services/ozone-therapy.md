@@ -19,7 +19,7 @@ Various forms of ozonated water, ozonated oil, and oxygen/ozone gas are applied 
 In a word, we **use energized oxygen to cure infections.** And the results are incredible.
 
 
-> Ozone therapy is a powerful treatment modality offering considerable benefits applicable to a wide range of conditions with the ability to penetrate intraoral hard and soft tissues. A simple gaseous molecule like ozone (produced naturally in vivo) can have superior therapeutic effects over ordinary drugs. Twenty years of research concerning the antimicrobial efficacy of O3 has conclusively shown the ability of this agent in both gaseous and aqueous solution to exterminate a wide range of bacteria, spores and viruses. Ozone deserves a place in the management of health and disease. <sup>2</sup>
+<blockquote class="p-3 service-blockquote"> Ozone therapy is a powerful treatment modality offering considerable benefits applicable to a wide range of conditions with the ability to penetrate intraoral hard and soft tissues. A simple gaseous molecule like ozone (produced naturally in vivo) can have superior therapeutic effects over ordinary drugs. Twenty years of research concerning the antimicrobial efficacy of O3 has conclusively shown the ability of this agent in both gaseous and aqueous solution to exterminate a wide range of bacteria, spores and viruses. Ozone deserves a place in the management of health and disease. <sup>2</sup></blockquote>
 
 <br/>
 

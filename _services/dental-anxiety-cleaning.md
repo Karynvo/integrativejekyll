@@ -20,7 +20,7 @@ A patient’s specific emotional and energetic blocks associated with their dent
 In short, you get medication free, individualized, immediate and lasting relief of dental phobias.
 
 
-> The main objective… is to identify and clear energetic blocks related to emotions, beliefs, and events for an individual, to ensure successful dental care with as little fear and anxiety as possible.
+<blockquote class="p-3 service-blockquote">The main objective… is to identify and clear energetic blocks related to emotions, beliefs, and events for an individual, to ensure successful dental care with as little fear and anxiety as possible.</blockquote>
 
 
 <div class="container">
