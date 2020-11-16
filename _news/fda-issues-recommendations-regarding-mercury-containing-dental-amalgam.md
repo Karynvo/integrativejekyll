@@ -18,6 +18,6 @@ author:
   display_name: Integrative Dentistry
   first_name: Integrative
   last_name: Dentistry
-permalink: "/blog/fda-announcement-dental-amalgam/"
+ext_url: https://www.fda.gov/news-events/press-announcements/fda-issues-recommendations-certain-high-risk-groups-regarding-mercury-containing-dental-amalgam
 ---
 On September 24th, 2020, after [187 years of use in the U.S.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3010024/#sec1-2title), the FDA finally (partly) acknowledges the health risks of mercury-containing amalgam fillings. The FDA now joins the rest of the world’s scientific community and health organizations in questioning the use of mercury in dentistry.

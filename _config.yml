@@ -48,6 +48,9 @@ collections:
   blog:
     output: true
     permalink: /blog/
+  news:
+    output: true
+    permalink: /news/:name/
 
 autopages:
   enabled: true
@@ -57,6 +60,13 @@ autopages:
 pagination:
   enabled: true
   collection: 'blog'
+  per_page: 10
+  sort_reverse: true
+  permalink: 'page/:num/'
+
+pagination:
+  enabled: true
+  collection: 'news'
   per_page: 10
   sort_reverse: true
   permalink: 'page/:num/'

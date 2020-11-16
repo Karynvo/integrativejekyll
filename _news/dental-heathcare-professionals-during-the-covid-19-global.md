@@ -18,6 +18,6 @@ author:
   display_name: Integrative Dentistry
   first_name: Integrative
   last_name: Dentistry
-permalink: "/blog/dental-during-covid-19/"
+ext_url: https://drive.google.com/file/d/1_wOzb7zANecDXI3sby0zxsXSPmIgoRet/view?usp=drivesdk
 ---
 Consistent use of personal protective equipment (PPE) by dental healthcare providers (DHPs) is shown to minimize the risks of exposure to SARS-CoV-2 in dental offices during the current global pandemic. As of today, there are no confirmed cases of COVID-19 transmission or mortality associated with dental care for DHPs and their patients.
