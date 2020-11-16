@@ -27,7 +27,7 @@ In a word, **we use light energy to boost natural healing and disrupt biofilms**
 <br/>
 __References__:
 
-Coluzzi and Parker. [Lasers in Dentistry - Current Concepts](https://drive.google.com/file/d/1FXg-JnEbVD0AxoEXCT8zC0ScUXwqHcIB/view). Cham: Springer, 2017.
+1. Coluzzi and Parker. [Lasers in Dentistry - Current Concepts](https://drive.google.com/file/d/1FXg-JnEbVD0AxoEXCT8zC0ScUXwqHcIB/view). Cham: Springer, 2017.
 
 <br/>
 __Links__:

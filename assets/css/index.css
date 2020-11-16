@@ -627,7 +627,12 @@ a:hover {
 }
 
 .service-body ul {
-    list-style: none;
+    /* list-style: none; */
+    text-align: left;
+}
+
+.service-body ol {
+    text-align: left;
 }
 
 .book-header {
