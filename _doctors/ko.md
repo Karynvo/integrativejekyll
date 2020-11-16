@@ -1,5 +1,5 @@
 ---
-firstname: Ken
+firstname: Alex
 lastname: Ko
 order: 8
 image: KoCircleHeadshot.png
