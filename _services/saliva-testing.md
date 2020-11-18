@@ -2,7 +2,7 @@
 layout: service
 title: Saliva Testing
 pagetitle: Saliva Testing
-order:
+order: 2
 inSeattle: true
 dropdown: true
 

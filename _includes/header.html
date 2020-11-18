@@ -100,9 +100,15 @@
                             Our Services
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            {% for serv in site.services %}
+                            {% assign sorted_services = site.services | sort:"order" %}
+                            {% for serv in sorted_services %}
                             {% if serv.dropdown %}
-                            <a class="dropdown-item" href={{serv.url}}>{{ serv.pagetitle }}</a>
+                            <a class="dropdown-item" href={{serv.url}}>
+                                {% if serv.title == "Teledentistry" %}
+                                NEW! 
+                                {% endif %}
+                                {{ serv.pagetitle }}
+                            </a>
                             {% endif %}
                             {% endfor %}
                         </div>

@@ -2,7 +2,7 @@
 layout: service
 title: Sedation Dentistry
 pagetitle: Sedation Dentistry
-order:
+order: 2
 inSeattle: true
 dropdown: true
 videos:

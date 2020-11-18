@@ -5,13 +5,19 @@
               <div class="col-xl-3 col-lg-3 col-6">
                 <h3 class="footer-menu-title">SERVICES</h3>
                 <ul class="footer-menu">
-                {% for serv in site.services %}
+                    {% assign sorted_services = site.services | sort:"order" %}
+                    {% for serv in sorted_services %}
                     {% if serv.dropdown %}
-                      <li class="footer-menu-item">
-                        <a class="footer-menu-link" href={{serv.url}}>{{ serv.pagetitle }}</a>
-                      </li>
+                    <li class="footer-menu-item">
+                      <a class="footer-menu-link" href={{serv.url}}>
+                        {% if serv.title == "Teledentistry" %}
+                        NEW! 
+                        {% endif %}
+                        {{ serv.pagetitle }}
+                      </a>
+                    </li>
                     {% endif %}
-                {% endfor %}
+                    {% endfor %}
                 </ul>
               </div>
               <div class="col-xl-3 col-lg-3 col-6">

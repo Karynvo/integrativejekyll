@@ -2,7 +2,7 @@
 layout: service
 title: TMJ Treatment Doctor and Specialist/Naturopathic Dentist Seattle, WA
 pagetitle: TMJ Treatment
-order:
+order: 2
 inSeattle: true
 dropdown: true
 description: Find experts for TMJ disorders in Seattle, WA. We offer advanced TMJ treatment and other dental services in Seattle, WA and surrounding areas.

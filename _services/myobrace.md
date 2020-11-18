@@ -2,7 +2,7 @@
 layout: service
 title: Myobrace in Seattle, WA
 pagetitle: Myobrace
-order:
+order: 2
 inSeattle: true
 dropdown: true
 description: Myobrace is a non-invasive orthodontic pediatric system that resolves poor myofunctional habits. We offer myobrace in Seattle, WA. Call @ 206367-6453!

@@ -2,7 +2,7 @@
 layout: service
 title: Ozone Therapy in Seattle, WA
 pagetitle: Ozone Therapy
-order:
+order: 2
 inSeattle: true
 dropdown: true
 videos:

@@ -2,7 +2,7 @@
 layout: service
 title: Natural and Biological Dentistry in Seattle, WA
 pagetitle: Natural and Biological Dentistry
-order:
+order: 2
 inSeattle: true
 dropdown: false
 description: At our office in Seattle, natural dentistry goes beyond traditional oral health care; we provide solutions, materials, and homeopathic remedies.

@@ -2,7 +2,7 @@
 layout: service
 title: Pinhole Surgical Technique
 pagetitle: Pinhole Surgical Technique
-order:
+order: 2
 inSeattle: true
 dropdown: true
 

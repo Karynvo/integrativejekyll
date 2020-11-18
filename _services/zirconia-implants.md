@@ -2,7 +2,7 @@
 layout: service
 title: Zirconia Implants
 pagetitle: Zirconia Implants
-order:
+order: 2
 inSeattle: false
 dropdown: true
 videos:

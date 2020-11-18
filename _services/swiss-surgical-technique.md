@@ -2,7 +2,7 @@
 layout: service
 title: Swiss Surgical Technique
 pagetitle: Swiss Surgical Technique
-order:
+order: 2
 inSeattle: true
 dropdown: true
 videos:

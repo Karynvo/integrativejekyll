@@ -2,7 +2,7 @@
 layout: service
 title: Pediatric/Childrens/kids Dentistry Seattle, Kirkland, and Bellevue, WA
 pagetitle: Children's Dentistry
-order:
+order: 2
 inSeattle: true
 dropdown: true
 description: Looking for pediatric dentist in Bellevue WA? We specialize in pediatric dentistry and offer best dental care to infants, toddlers, children, and teens.

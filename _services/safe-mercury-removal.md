@@ -2,7 +2,7 @@
 layout: service
 title: Seattle Mercury Free Dentist Removal
 pagetitle: Safe Mercury Removal
-order:
+order: 2
 inSeattle: true
 dropdown: true
 description: Specializing in Seattle mercury-free dentistry, Dr. Marder has created a highly effective, safe mercury removal protocol to protect you and your smile.
