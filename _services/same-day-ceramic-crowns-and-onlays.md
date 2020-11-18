@@ -2,7 +2,6 @@
 layout: service
 title: Same-Day Ceramic Crowns, CEREC Restorations, and Onlays Seattle, WA
 pagetitle: Same-Day Ceramic Crowns and Onlays
-order: 2
 inSeattle: true
 dropdown: true
 description: Restore damaged teeth with dental crowns and CEREC restorations. We offer same day CEREC restorations and crowns treatment in Seattle WA. Call @ 206367-6453!

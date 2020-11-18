@@ -2,7 +2,6 @@
 layout: service
 title: Laser Therapy
 pagetitle: Laser Therapy
-order: 2
 inSeattle: true
 dropdown: true
 videos:

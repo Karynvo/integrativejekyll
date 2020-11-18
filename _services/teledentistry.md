@@ -2,7 +2,6 @@
 layout: service
 title: Teledentistry
 pagetitle: Teledentistry
-order: 1
 inSeattle: false
 dropdown: true
 permalink: /services/teledentistry/

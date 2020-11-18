@@ -2,7 +2,6 @@
 layout: service
 title: Invisalign Seattle, WA
 pagetitle: Invisalign
-order: 2
 inSeattle: true
 dropdown: true
 description: If you want to achieve the smile of your dreams without your treatment interfering with your day-to-day life, the best solution for you is Invisalign.

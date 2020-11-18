@@ -42,6 +42,32 @@ collections:
   services:
     output: true
     permalink: /services/:name/
+    order:
+      - teledentistry.md
+      - dental-anxiety-clearing.md
+      - airway-optimization.md
+      - advanced-prf-platelet-rich-fibrin.md
+      - childrens-dentistry.md
+      - cosmetic-dentistry.md
+      - invisalign.md
+      - laser-therapy.md
+      - mercury-bpa-free-fillings.md
+      - metal-free-dental-implants.md
+      - myobrace.md
+      - natural-dentistry.md
+      - orthodontics.md
+      - ozone-therapy.md
+      - periodontics.md
+      - pinhole-surgical-technique.md
+      - plaque-microscopy.md
+      - safe-mercury-removal.md
+      - saliva-testing.md
+      - same-day-ceramic-crowns-and-onlays.md
+      - sedation-dentistry.md
+      - sleep-apnea-treatment.md
+      - swiss-surgical-technique.md
+      - tmj-treatment.md
+      - zirconia-implants.md
   about-us:
     output: true
     permalink: /about-us/:name/

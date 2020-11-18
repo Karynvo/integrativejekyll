@@ -5,13 +5,12 @@
               <div class="col-xl-3 col-lg-3 col-6">
                 <h3 class="footer-menu-title">SERVICES</h3>
                 <ul class="footer-menu">
-                    {% assign sorted_services = site.services | sort:"order" %}
-                    {% for serv in sorted_services %}
+                    {% for serv in site.services %}
                     {% if serv.dropdown %}
                     <li class="footer-menu-item">
                       <a class="footer-menu-link" href={{serv.url}}>
-                        {% if serv.title == "Teledentistry" %}
-                        NEW! 
+                        {% if serv.title == "Teledentistry"  or serv.title == "Dental Anxiety Clearing" or serv.title == "Airway Optimization" %}
+                        <font color="#34b2b6">NEW! </font>
                         {% endif %}
                         {{ serv.pagetitle }}
                       </a>

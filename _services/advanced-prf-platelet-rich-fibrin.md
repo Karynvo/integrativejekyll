@@ -2,7 +2,6 @@
 layout: service
 title: Advanced Platelet Rich Fibrin in Seattle, WA
 pagetitle: Advanced Platelet Rich Fibrin
-order: 2
 inSeattle: true
 dropdown: true
 videos:

@@ -2,7 +2,6 @@
 layout: service
 title: Orthodontics & Teeth Straightening Dentist In Seattle, WA
 pagetitle: Orthodontics
-order: 2
 inSeattle: true
 dropdown: true
 description: Improve your personal appearance with Orthodontics. We offer orthodontic services for children and adults of the Seattle, WA. Call @ 206367-6453!

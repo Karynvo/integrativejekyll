@@ -2,7 +2,6 @@
 layout: service
 title: Cosmetic Dentistry Seattle, WA
 pagetitle: Cosmetic Dentistry
-order: 2
 inSeattle: true
 dropdown: true
 description: Looking for a Cosmetic dentist in Seattle, WA? At Integrative Dentistry we offer cosmetic procedures, like veneers and teeth whitening. Call @ 206367-6453!

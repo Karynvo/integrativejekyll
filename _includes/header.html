@@ -100,12 +100,11 @@
                             Our Services
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            {% assign sorted_services = site.services | sort:"order" %}
-                            {% for serv in sorted_services %}
+                            {% for serv in site.services %}
                             {% if serv.dropdown %}
                             <a class="dropdown-item" href={{serv.url}}>
-                                {% if serv.title == "Teledentistry" %}
-                                NEW! 
+                                {% if serv.title == "Teledentistry" or serv.title == "Dental Anxiety Clearing" or serv.title == "Airway Optimization" %}
+                                <font color="#34b2b6">NEW! </font>
                                 {% endif %}
                                 {{ serv.pagetitle }}
                             </a>

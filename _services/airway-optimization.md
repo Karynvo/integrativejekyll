@@ -2,7 +2,6 @@
 layout: service
 title: Airway Optimization
 pagetitle: Airway Optimization
-order: 2
 inSeattle: false
 dropdown: true
 videos:

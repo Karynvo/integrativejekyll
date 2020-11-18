@@ -2,7 +2,6 @@
 layout: service
 title: Dental Anxiety Clearing
 pagetitle: Dental Anxiety Clearing
-order: 2
 inSeattle: false
 dropdown: true
 videos:

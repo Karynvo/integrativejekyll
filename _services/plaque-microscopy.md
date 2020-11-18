@@ -2,7 +2,6 @@
 layout: service
 title: Plaque Microscopy
 pagetitle: Plaque Microscopy
-order: 2
 inSeattle: true
 dropdown: true
 videos:
