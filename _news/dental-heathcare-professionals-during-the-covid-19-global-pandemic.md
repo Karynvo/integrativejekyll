@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dental Healthcare Professionals During the COVID-19 Global
+title: Dental Healthcare Professionals During the COVID-19 Global Pandemic
 type: post
 date: 2020-11-13
 parent_id: '0'
