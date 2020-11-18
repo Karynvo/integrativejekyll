@@ -5,13 +5,18 @@
               <div class="col-xl-3 col-lg-3 col-6">
                 <h3 class="footer-menu-title">SERVICES</h3>
                 <ul class="footer-menu">
-                {% for serv in site.services %}
+                    {% for serv in site.services %}
                     {% if serv.dropdown %}
-                      <li class="footer-menu-item">
-                        <a class="footer-menu-link" href={{serv.url}}>{{ serv.pagetitle }}</a>
-                      </li>
+                    <li class="footer-menu-item">
+                      <a class="footer-menu-link" href={{serv.url}}>
+                        {% if serv.title == "Teledentistry"  or serv.title == "Dental Anxiety Clearing" or serv.title == "Airway Optimization" %}
+                        <font color="#34b2b6">NEW! </font>
+                        {% endif %}
+                        {{ serv.pagetitle }}
+                      </a>
+                    </li>
                     {% endif %}
-                {% endfor %}
+                    {% endfor %}
                 </ul>
               </div>
               <div class="col-xl-3 col-lg-3 col-6">
@@ -21,13 +26,22 @@
                     <a href="/meet-the-doctors/" class="footer-menu-link">Meet Your Dentists</a>
                   </li>
                   <li class="footer-menu-item">
+                    <a href="/meet-the-hygienists/" class="footer-menu-link">Meet Your Hygienists</a>
+                  </li>
+                  <li class="footer-menu-item">
                     <a href="/services/natural-dentistry-seattle" class="footer-menu-link">Biological Dentistry</a>
                   </li>
                   <li class="footer-menu-item">
-                      <a class="footer-menu-link" href="/blog">Blog</a>
+                      <a class="footer-menu-link" href="/news">News</a>
+                  </li>
+                  <li class="footer-menu-item">
+                      <a class="footer-menu-link" href="/blog">Posts</a>
                   </li>
                   <li class="footer-menu-item">
                     <a href="/about-us/naturopathic-dentist-seattle-office" class="footer-menu-link">Our Office and Technology</a>
+                  </li>
+                  <li class="footer-menu-item">
+                    <a href="/about-us/demystifying-dental-procedures" class="footer-menu-link">Demystifying Dental Procedures</a>
                   </li>
                   <li class="footer-menu-item">
                     <a href="/about-us/seattle-holistic-dentist-why-different" class="footer-menu-link">Why We Are Different</a>
@@ -47,7 +61,7 @@
                 <a href="tel:(206) 367-6453">(206) 367-6453</a>
                 <br>
                 to schedule your visit!
-                <div><a class="btn book-button footer-button" role="button" href="/request-an-appointment/">REQUEST APPOINTMENT</a></div>
+                <div><a class="btn book-button footer-button" role="button" href="/request-call/">REQUEST PHONE CALL</a></div>
               </div>
               <div class="col-xl-3 col-lg-3 col-6">
                 <div class="footer-social mb-4">

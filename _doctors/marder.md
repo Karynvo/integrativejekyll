@@ -18,3 +18,5 @@ Dr. Marder is a member of the American Academy of Craniofacial Pain, Internation
 * Graduate, Schuster Center, Scottsdale, AZ, 1992
 * Graduate, Dentistry, D.D.S., University of Illinois, 1981
 * Graduate with Honors, Biology, B.A., Northwestern University, 1977
+
+_On September 14th, Mitch and Carla welcomed their first grandchild to the family! Dr. Marder is currently providing dental care on a limited basis with a highly variable work schedule. Please call for details._

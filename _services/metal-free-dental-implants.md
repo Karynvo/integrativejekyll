@@ -2,7 +2,6 @@
 layout: service
 title: Dental Implants and Dental Bridges in Seattle and Bellevue, WA
 pagetitle: Metal-Free Dental Implants
-order:
 inSeattle: true
 dropdown: true
 description: Rejuvenate your smile with implant dentistry! We provide a full range of dental and cosmetic services in Seattle WA and its surrounding areas. Call @ 206367-6453!

@@ -2,7 +2,6 @@
 layout: service
 title: Laser Therapy
 pagetitle: Laser Therapy
-order:
 inSeattle: true
 dropdown: true
 videos:
@@ -22,21 +21,28 @@ Noninvasive therapeutic lasers will reverse gum infections, halt gum disease, an
 In a word, **we use light energy to boost natural healing and disrupt biofilms**. And the results are amazing.
 
 
-> In view of the growing problem of bacterial resistance to conventional antimicrobials, the use of an alternative bactericidal approach to which bacteria are not likely to develop resistance would be valuable. The current treatment for dental plaque-related diseases in the oral cavity involves, first, the mechanical removal of all accessible contamination, and, second, the use of topical and/or systemic antimicrobial medications. Laser therapy may be a suitable antimicrobial approach that can overcome biofilm and antimicrobial-related resistance. <sup>3</sup>
+<blockquote class="p-3 service-blockquote">In view of the growing problem of bacterial resistance to conventional antimicrobials, the use of an alternative bactericidal approach to which bacteria are not likely to develop resistance would be valuable. The current treatment for dental plaque-related diseases in the oral cavity involves, first, the mechanical removal of all accessible contamination, and, second, the use of topical and/or systemic antimicrobial medications. Laser therapy may be a suitable antimicrobial approach that can overcome biofilm and antimicrobial-related resistance. <sup>3</sup></blockquote>
 
 <br/>
 __References__:
 
-Coluzzi and Parker. [Lasers in Dentistry - Current Concepts](https://drive.google.com/file/d/1FXg-JnEbVD0AxoEXCT8zC0ScUXwqHcIB/view). Cham: Springer, 2017.
+1. Coluzzi and Parker. [Lasers in Dentistry - Current Concepts](https://drive.google.com/file/d/1FXg-JnEbVD0AxoEXCT8zC0ScUXwqHcIB/view). Cham: Springer, 2017.
 
 <br/>
 __Links__:
 
 ChattanoogaⓇ [Vectra Genisys Transport Laser](https://www.djoglobal.com/products/chattanooga/vectra-genisys-transport-laser)Ⓡ
-Lutronic™ [Denta 2](https://www.xrayheads.com/denta-2)™ [CO<sub>2</sub> Laser](https://www.xrayheads.com/co2-dental-lasers)
-[https://en.m.wikipedia.org/wiki/Dental_laser](https://en.m.wikipedia.org/wiki/Dental_laser)
+
+Lutronic™ [Denta 2](https://www.xrayheads.com/denta-2)™ 
+
+[CO<sub>2</sub> Laser](https://www.xrayheads.com/co2-dental-lasers)
+
+[https://en.wikipedia.org/wiki/Dental_laser](https://en.wikipedia.org/wiki/Dental_laser)
+
 [https://www.laserdentistry.org/](https://www.laserdentistry.org/)
+
 [https://theiald.com/](https://theiald.com/)
+
 [https://www.naalt.org/](https://www.naalt.org/)
 
 <br/>
