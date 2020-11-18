@@ -1,7 +1,7 @@
 ---
 layout: service
-title: Dental Anxiety Cleaning
-pagetitle: Dental Anxiety Cleaning
+title: Dental Anxiety Clearing
+pagetitle: Dental Anxiety Clearing
 order:
 inSeattle: false
 dropdown: true
